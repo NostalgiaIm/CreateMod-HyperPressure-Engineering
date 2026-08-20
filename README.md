@@ -107,6 +107,12 @@ The project is organized around small feature packages under `content/`, with al
 
 The pressure system should grow as a server-side simulation first. Blocks that store or move pressure should expose narrow interfaces for pressure capacity, flow limits, medium type, and failure thresholds. Client renderers and HUD displays should read synchronized state rather than owning gameplay decisions. Create integration should stay explicit: kinetic input, processing recipes, goggles display, ponder scenes, and redstone behavior should each live behind focused adapters.
 
+## Contributing
+
+This is an open-source Create addon project, and contributions are welcome. Good places to help include pressure-network design, Create kinetic integration, block and machine implementation, HUD/goggles display, balancing, recipes, textures, models, Ponder scenes, localization, and documentation.
+
+For larger changes, please open an issue or discussion first and describe the intended gameplay behavior. Keep commits focused, avoid committing build output or local dependency jars, and test with JDK 21 when the change touches code or generated resources.
+
 ## License
 
-This project currently uses an `ARR` placeholder license for early local development. Replace it with the intended public license before a formal mod release.
+This project is intended to be open source. The current `LICENSE` file is still an early placeholder, so replace it with the final open-source license before a formal public release.
