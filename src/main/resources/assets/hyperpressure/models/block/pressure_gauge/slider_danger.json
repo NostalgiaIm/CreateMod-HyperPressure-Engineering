@@ -1,0 +1,102 @@
+{
+  "credit": "Made with Blockbench for HyperPressure Engineering",
+  "parent": "block/block",
+  "render_type": "minecraft:translucent",
+  "textures": {
+    "gunmetal": "hyperpressure:block/pressure_gauge_gunmetal",
+    "dark_metal": "hyperpressure:block/pressure_gauge_dark_metal",
+    "cobalt_casing": "hyperpressure:block/pressure_gauge_cobalt_casing",
+    "cyan_glow": "hyperpressure:block/pressure_gauge_cyan_glow",
+    "yellow_glow": "hyperpressure:block/pressure_gauge_yellow_glow",
+    "red_glow": "hyperpressure:block/pressure_gauge_red_glow",
+    "redstone_contact": "hyperpressure:block/pressure_gauge_redstone_contact",
+    "bolt": "hyperpressure:block/pressure_gauge_bolt",
+    "pipe_port": "hyperpressure:block/pressure_gauge_pipe_port",
+    "rear_cover": "hyperpressure:block/pressure_gauge_rear_cover",
+    "bar_face": "hyperpressure:block/pressure_gauge_bar_face",
+    "glass": "hyperpressure:block/pressure_gauge_glass",
+    "status_warning": "hyperpressure:block/pressure_gauge_status_warning",
+    "status_danger": "hyperpressure:block/pressure_gauge_status_danger",
+    "slider": "hyperpressure:block/pressure_gauge_slider",
+    "particle": "hyperpressure:block/pressure_gauge_cobalt_casing"
+  },
+  "elements": [
+    {
+      "name": "slider_danger horizontal pressure slider marker",
+      "from": [
+        11.649999999999999,
+        9.15,
+        9.12
+      ],
+      "to": [
+        12.75,
+        10.9,
+        9.459999999999999
+      ],
+      "shade": false,
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#slider"
+        }
+      }
+    },
+    {
+      "name": "slider_danger vertical slider rail",
+      "from": [
+        12.02,
+        5.5,
+        9.18
+      ],
+      "to": [
+        12.379999999999999,
+        10.15,
+        9.36
+      ],
+      "shade": false,
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            0.35999999999999943,
+            4.65
+          ],
+          "texture": "#red_glow"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            0.35999999999999943,
+            4.65
+          ],
+          "texture": "#red_glow"
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            0.17999999999999972,
+            4.65
+          ],
+          "texture": "#red_glow"
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            0.17999999999999972,
+            4.65
+          ],
+          "texture": "#red_glow"
+        }
+      }
+    }
+  ]
+}

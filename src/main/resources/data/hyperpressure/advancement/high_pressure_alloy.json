@@ -1,0 +1,34 @@
+{
+  "parent": "hyperpressure:first_pressure",
+  "criteria": {
+    "0": {
+      "conditions": {
+        "items": [
+          {
+            "items": "hyperpressure:high_pressure_alloy"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancement.hyperpressure.high_pressure_alloy.desc"
+    },
+    "icon": {
+      "count": 1,
+      "id": "hyperpressure:high_pressure_alloy"
+    },
+    "title": {
+      "translate": "advancement.hyperpressure.high_pressure_alloy"
+    }
+  },
+  "requirements": [
+    [
+      "0"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

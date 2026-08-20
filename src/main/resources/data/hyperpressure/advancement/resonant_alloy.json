@@ -1,0 +1,34 @@
+{
+  "parent": "hyperpressure:high_pressure_alloy",
+  "criteria": {
+    "0": {
+      "conditions": {
+        "items": [
+          {
+            "items": "hyperpressure:resonant_alloy"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancement.hyperpressure.resonant_alloy.desc"
+    },
+    "icon": {
+      "count": 1,
+      "id": "hyperpressure:resonant_alloy"
+    },
+    "title": {
+      "translate": "advancement.hyperpressure.resonant_alloy"
+    }
+  },
+  "requirements": [
+    [
+      "0"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "hyperpressure_alloys",
+  "ingredients": [
+    {
+      "item": "hyperpressure:reinforced_high_pressure_alloy"
+    },
+    {
+      "item": "minecraft:netherite_scrap"
+    }
+  ],
+  "result": {
+    "id": "hyperpressure:ultra_pressure_alloy"
+  }
+}

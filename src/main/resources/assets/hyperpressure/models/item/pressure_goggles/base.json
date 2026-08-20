@@ -1,0 +1,1384 @@
+{
+  "credit": "Pressure Goggles concept model for HyperPressure Engineering, generated for Blockbench",
+  "parent": "block/block",
+  "render_type": "minecraft:translucent",
+  "textures": {
+    "cobalt_frame": "hyperpressure:item/pressure_goggles/cobalt_frame",
+    "gunmetal": "hyperpressure:item/pressure_goggles/gunmetal",
+    "dark_rubber": "hyperpressure:item/pressure_goggles/dark_rubber",
+    "cyan_lens": "hyperpressure:item/pressure_goggles/cyan_lens",
+    "hud_grid": "hyperpressure:item/pressure_goggles/hud_grid",
+    "bolt": "hyperpressure:item/pressure_goggles/bolt",
+    "pressure_badge": "hyperpressure:item/pressure_goggles/pressure_badge",
+    "led_blue": "hyperpressure:item/pressure_goggles/led_blue",
+    "stripe_logo": "hyperpressure:item/pressure_goggles/stripe_logo",
+    "module_dark": "hyperpressure:item/pressure_goggles/module_dark",
+    "sensor_red": "hyperpressure:item/pressure_goggles/sensor_red",
+    "antenna_disc": "hyperpressure:item/pressure_goggles/antenna_disc",
+    "warning_glow": "hyperpressure:item/pressure_goggles/warning_glow",
+    "overload_red_lens": "hyperpressure:item/pressure_goggles/overload_red_lens",
+    "particle": "hyperpressure:item/pressure_goggles/cobalt_frame"
+  },
+  "elements": [
+    {
+      "name": "upper deep cobalt brow frame",
+      "from": [
+        2.1,
+        9.25,
+        2.25
+      ],
+      "to": [
+        13.9,
+        10.85,
+        5.25
+      ],
+      "shade": true,
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            11.8,
+            1.5999999999999996
+          ],
+          "texture": "#cobalt_frame"
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            3,
+            1.5999999999999996
+          ],
+          "texture": "#cobalt_frame"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            11.8,
+            1.5999999999999996
+          ],
+          "texture": "#cobalt_frame"
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            3,
+            1.5999999999999996
+          ],
+          "texture": "#cobalt_frame"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            11.8,
+            3
+          ],
+          "texture": "#cobalt_frame"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            11.8,
+            3
+          ],
+          "texture": "#cobalt_frame"
+        }
+      }
+    },
+    {
+      "name": "lower deep cobalt cheek frame",
+      "from": [
+        2.1,
+        5.15,
+        2.25
+      ],
+      "to": [
+        13.9,
+        6.75,
+        5.25
+      ],
+      "shade": true,
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            11.8,
+            1.5999999999999996
+          ],
+          "texture": "#cobalt_frame"
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            3,
+            1.5999999999999996
+          ],
+          "texture": "#cobalt_frame"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            11.8,
+            1.5999999999999996
+          ],
+          "texture": "#cobalt_frame"
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            3,
+            1.5999999999999996
+          ],
+          "texture": "#cobalt_frame"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            11.8,
+            3
+          ],
+          "texture": "#cobalt_frame"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            11.8,
+            3
+          ],
+          "texture": "#cobalt_frame"
+        }
+      }
+    },
+    {
+      "name": "left outer vertical frame",
+      "from": [
+        1.55,
+        5.6,
+        2.2
+      ],
+      "to": [
+        3.25,
+        10.4,
+        5.3
+      ],
+      "shade": true,
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            1.7,
+            4.800000000000001
+          ],
+          "texture": "#cobalt_frame"
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            3.0999999999999996,
+            4.800000000000001
+          ],
+          "texture": "#cobalt_frame"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            1.7,
+            4.800000000000001
+          ],
+          "texture": "#cobalt_frame"
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            3.0999999999999996,
+            4.800000000000001
+          ],
+          "texture": "#cobalt_frame"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            1.7,
+            3.0999999999999996
+          ],
+          "texture": "#cobalt_frame"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            1.7,
+            3.0999999999999996
+          ],
+          "texture": "#cobalt_frame"
+        }
+      }
+    },
+    {
+      "name": "right outer vertical frame",
+      "from": [
+        12.75,
+        5.6,
+        2.2
+      ],
+      "to": [
+        14.45,
+        10.4,
+        5.3
+      ],
+      "shade": true,
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            1.6999999999999993,
+            4.800000000000001
+          ],
+          "texture": "#cobalt_frame"
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            3.0999999999999996,
+            4.800000000000001
+          ],
+          "texture": "#cobalt_frame"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            1.6999999999999993,
+            4.800000000000001
+          ],
+          "texture": "#cobalt_frame"
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            3.0999999999999996,
+            4.800000000000001
+          ],
+          "texture": "#cobalt_frame"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            1.6999999999999993,
+            3.0999999999999996
+          ],
+          "texture": "#cobalt_frame"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            1.6999999999999993,
+            3.0999999999999996
+          ],
+          "texture": "#cobalt_frame"
+        }
+      }
+    },
+    {
+      "name": "center reinforced bridge",
+      "from": [
+        7.1,
+        5.75,
+        2
+      ],
+      "to": [
+        8.9,
+        10.15,
+        5.55
+      ],
+      "shade": true,
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            1.8000000000000007,
+            4.4
+          ],
+          "texture": "#cobalt_frame"
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            3.55,
+            4.4
+          ],
+          "texture": "#cobalt_frame"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            1.8000000000000007,
+            4.4
+          ],
+          "texture": "#cobalt_frame"
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            3.55,
+            4.4
+          ],
+          "texture": "#cobalt_frame"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            1.8000000000000007,
+            3.55
+          ],
+          "texture": "#cobalt_frame"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            1.8000000000000007,
+            3.55
+          ],
+          "texture": "#cobalt_frame"
+        }
+      }
+    },
+    {
+      "name": "left electric cyan lens",
+      "from": [
+        3.25,
+        6.45,
+        1.95
+      ],
+      "to": [
+        7.15,
+        9.35,
+        2.2
+      ],
+      "shade": false,
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#cyan_lens"
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            0.2500000000000002,
+            2.8999999999999995
+          ],
+          "texture": "#cyan_lens"
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            0.2500000000000002,
+            2.8999999999999995
+          ],
+          "texture": "#cyan_lens"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            3.9000000000000004,
+            0.2500000000000002
+          ],
+          "texture": "#cyan_lens"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            3.9000000000000004,
+            0.2500000000000002
+          ],
+          "texture": "#cyan_lens"
+        }
+      }
+    },
+    {
+      "name": "right electric cyan lens",
+      "from": [
+        8.85,
+        6.45,
+        1.95
+      ],
+      "to": [
+        12.75,
+        9.35,
+        2.2
+      ],
+      "shade": false,
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#cyan_lens"
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            0.2500000000000002,
+            2.8999999999999995
+          ],
+          "texture": "#cyan_lens"
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            0.2500000000000002,
+            2.8999999999999995
+          ],
+          "texture": "#cyan_lens"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            3.9000000000000004,
+            0.2500000000000002
+          ],
+          "texture": "#cyan_lens"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            3.9000000000000004,
+            0.2500000000000002
+          ],
+          "texture": "#cyan_lens"
+        }
+      }
+    },
+    {
+      "name": "recessed hex socket bolt",
+      "from": [
+        2,
+        9.75,
+        1.75
+      ],
+      "to": [
+        3.05,
+        10.7,
+        2.05
+      ],
+      "shade": true,
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#bolt"
+        }
+      }
+    },
+    {
+      "name": "recessed hex socket bolt",
+      "from": [
+        12.45,
+        9.75,
+        1.75
+      ],
+      "to": [
+        3.4499999999999997,
+        10.7,
+        2.05
+      ],
+      "shade": true,
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#bolt"
+        }
+      }
+    },
+    {
+      "name": "recessed hex socket bolt",
+      "from": [
+        2,
+        5.25,
+        1.75
+      ],
+      "to": [
+        3.05,
+        6.2,
+        2.05
+      ],
+      "shade": true,
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#bolt"
+        }
+      }
+    },
+    {
+      "name": "recessed hex socket bolt",
+      "from": [
+        12.45,
+        5.25,
+        1.75
+      ],
+      "to": [
+        3.4499999999999997,
+        6.2,
+        2.05
+      ],
+      "shade": true,
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#bolt"
+        }
+      }
+    },
+    {
+      "name": "central micro pressure gauge badge",
+      "from": [
+        6.6,
+        4.55,
+        1.55
+      ],
+      "to": [
+        9.4,
+        7,
+        1.86
+      ],
+      "shade": false,
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#pressure_badge"
+        }
+      }
+    },
+    {
+      "name": "left gunmetal hinge block",
+      "from": [
+        0.55,
+        6.25,
+        3.25
+      ],
+      "to": [
+        2.05,
+        9.75,
+        5.4
+      ],
+      "shade": true,
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            1.4999999999999998,
+            3.5
+          ],
+          "texture": "#gunmetal"
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            2.1500000000000004,
+            3.5
+          ],
+          "texture": "#gunmetal"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            1.4999999999999998,
+            3.5
+          ],
+          "texture": "#gunmetal"
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            2.1500000000000004,
+            3.5
+          ],
+          "texture": "#gunmetal"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            1.4999999999999998,
+            2.1500000000000004
+          ],
+          "texture": "#gunmetal"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            1.4999999999999998,
+            2.1500000000000004
+          ],
+          "texture": "#gunmetal"
+        }
+      }
+    },
+    {
+      "name": "right gunmetal hinge block",
+      "from": [
+        13.95,
+        6.25,
+        3.25
+      ],
+      "to": [
+        15.45,
+        9.75,
+        5.4
+      ],
+      "shade": true,
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            1.5,
+            3.5
+          ],
+          "texture": "#gunmetal"
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            2.1500000000000004,
+            3.5
+          ],
+          "texture": "#gunmetal"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            1.5,
+            3.5
+          ],
+          "texture": "#gunmetal"
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            2.1500000000000004,
+            3.5
+          ],
+          "texture": "#gunmetal"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            1.5,
+            2.1500000000000004
+          ],
+          "texture": "#gunmetal"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            1.5,
+            2.1500000000000004
+          ],
+          "texture": "#gunmetal"
+        }
+      }
+    },
+    {
+      "name": "left thick metal temple",
+      "from": [
+        0.4,
+        6.65,
+        5.15
+      ],
+      "to": [
+        1.75,
+        9.2,
+        12.65
+      ],
+      "shade": true,
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            1.35,
+            2.549999999999999
+          ],
+          "texture": "#gunmetal"
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            7.5,
+            2.549999999999999
+          ],
+          "texture": "#gunmetal"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            1.35,
+            2.549999999999999
+          ],
+          "texture": "#gunmetal"
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            7.5,
+            2.549999999999999
+          ],
+          "texture": "#gunmetal"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            1.35,
+            7.5
+          ],
+          "texture": "#gunmetal"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            1.35,
+            7.5
+          ],
+          "texture": "#gunmetal"
+        }
+      }
+    },
+    {
+      "name": "right thick metal temple",
+      "from": [
+        14.25,
+        6.65,
+        5.15
+      ],
+      "to": [
+        15.6,
+        9.2,
+        12.65
+      ],
+      "shade": true,
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            1.3499999999999996,
+            2.549999999999999
+          ],
+          "texture": "#gunmetal"
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            7.5,
+            2.549999999999999
+          ],
+          "texture": "#gunmetal"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            1.3499999999999996,
+            2.549999999999999
+          ],
+          "texture": "#gunmetal"
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            7.5,
+            2.549999999999999
+          ],
+          "texture": "#gunmetal"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            1.3499999999999996,
+            7.5
+          ],
+          "texture": "#gunmetal"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            1.3499999999999996,
+            7.5
+          ],
+          "texture": "#gunmetal"
+        }
+      }
+    },
+    {
+      "name": "left anti slip rubber sleeve",
+      "from": [
+        0.25,
+        6.35,
+        11.9
+      ],
+      "to": [
+        1.9,
+        9.35,
+        14.6
+      ],
+      "shade": true,
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            1.65,
+            3
+          ],
+          "texture": "#dark_rubber"
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            2.6999999999999993,
+            3
+          ],
+          "texture": "#dark_rubber"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            1.65,
+            3
+          ],
+          "texture": "#dark_rubber"
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            2.6999999999999993,
+            3
+          ],
+          "texture": "#dark_rubber"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            1.65,
+            2.6999999999999993
+          ],
+          "texture": "#dark_rubber"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            1.65,
+            2.6999999999999993
+          ],
+          "texture": "#dark_rubber"
+        }
+      }
+    },
+    {
+      "name": "right anti slip rubber sleeve",
+      "from": [
+        14.1,
+        6.35,
+        11.9
+      ],
+      "to": [
+        15.75,
+        9.35,
+        14.6
+      ],
+      "shade": true,
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            1.6500000000000004,
+            3
+          ],
+          "texture": "#dark_rubber"
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            2.6999999999999993,
+            3
+          ],
+          "texture": "#dark_rubber"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            1.6500000000000004,
+            3
+          ],
+          "texture": "#dark_rubber"
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            2.6999999999999993,
+            3
+          ],
+          "texture": "#dark_rubber"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            1.6500000000000004,
+            2.6999999999999993
+          ],
+          "texture": "#dark_rubber"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            1.6500000000000004,
+            2.6999999999999993
+          ],
+          "texture": "#dark_rubber"
+        }
+      }
+    },
+    {
+      "name": "rear wide elastic headband",
+      "from": [
+        2.6,
+        5.95,
+        12.55
+      ],
+      "to": [
+        13.4,
+        9.95,
+        14.75
+      ],
+      "shade": true,
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#stripe_logo"
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            2.1999999999999993,
+            3.999999999999999
+          ],
+          "texture": "#stripe_logo"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#stripe_logo"
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            2.1999999999999993,
+            3.999999999999999
+          ],
+          "texture": "#stripe_logo"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            10.8,
+            2.1999999999999993
+          ],
+          "texture": "#stripe_logo"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            10.8,
+            2.1999999999999993
+          ],
+          "texture": "#stripe_logo"
+        }
+      }
+    },
+    {
+      "name": "upper blue stitched band stripe",
+      "from": [
+        2.9,
+        9.75,
+        12.2
+      ],
+      "to": [
+        13.1,
+        10.22,
+        14.95
+      ],
+      "shade": false,
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            10.2,
+            0.47000000000000064
+          ],
+          "texture": "#cyan_lens"
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            2.75,
+            0.47000000000000064
+          ],
+          "texture": "#cyan_lens"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            10.2,
+            0.47000000000000064
+          ],
+          "texture": "#cyan_lens"
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            2.75,
+            0.47000000000000064
+          ],
+          "texture": "#cyan_lens"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            10.2,
+            2.75
+          ],
+          "texture": "#cyan_lens"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            10.2,
+            2.75
+          ],
+          "texture": "#cyan_lens"
+        }
+      }
+    },
+    {
+      "name": "lower blue stitched band stripe",
+      "from": [
+        2.9,
+        5.68,
+        12.2
+      ],
+      "to": [
+        13.1,
+        6.15,
+        14.95
+      ],
+      "shade": false,
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            10.2,
+            0.47000000000000064
+          ],
+          "texture": "#cyan_lens"
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            2.75,
+            0.47000000000000064
+          ],
+          "texture": "#cyan_lens"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            10.2,
+            0.47000000000000064
+          ],
+          "texture": "#cyan_lens"
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            2.75,
+            0.47000000000000064
+          ],
+          "texture": "#cyan_lens"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            10.2,
+            2.75
+          ],
+          "texture": "#cyan_lens"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            10.2,
+            2.75
+          ],
+          "texture": "#cyan_lens"
+        }
+      }
+    }
+  ],
+  "display": {
+    "thirdperson_righthand": {
+      "rotation": [
+        75,
+        45,
+        0
+      ],
+      "translation": [
+        0,
+        2.5,
+        1.5
+      ],
+      "scale": [
+        0.42,
+        0.42,
+        0.42
+      ]
+    },
+    "thirdperson_lefthand": {
+      "rotation": [
+        75,
+        45,
+        0
+      ],
+      "translation": [
+        0,
+        2.5,
+        1.5
+      ],
+      "scale": [
+        0.42,
+        0.42,
+        0.42
+      ]
+    },
+    "firstperson_righthand": {
+      "rotation": [
+        0,
+        45,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.42,
+        0.42,
+        0.42
+      ]
+    },
+    "firstperson_lefthand": {
+      "rotation": [
+        0,
+        225,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.42,
+        0.42,
+        0.42
+      ]
+    },
+    "ground": {
+      "translation": [
+        0,
+        2,
+        0
+      ],
+      "scale": [
+        0.5,
+        0.5,
+        0.5
+      ]
+    },
+    "gui": {
+      "rotation": [
+        22,
+        -180,
+        0
+      ],
+      "translation": [
+        0,
+        2.25,
+        0
+      ],
+      "scale": [
+        1.32,
+        1.32,
+        1.32
+      ]
+    },
+    "head": {
+      "rotation": [
+        0,
+        180,
+        0
+      ],
+      "translation": [
+        0,
+        5.6,
+        0
+      ],
+      "scale": [
+        1.72,
+        1.72,
+        1.72
+      ]
+    },
+    "fixed": {
+      "rotation": [
+        0,
+        180,
+        0
+      ],
+      "translation": [
+        0,
+        1.5,
+        2.5
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    }
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "credit": "Made with Blockbench for HyperPressure Engineering",
+  "parent": "block/block",
+  "render_type": "minecraft:cutout",
+  "textures": {
+    "gunmetal": "hyperpressure:block/hand_cranked_plunger_pump_gunmetal",
+    "dark_metal": "hyperpressure:block/hand_cranked_plunger_pump_dark_metal",
+    "cobalt_casing": "hyperpressure:block/hand_cranked_plunger_pump_cobalt_casing",
+    "red_rubber": "hyperpressure:block/hand_cranked_plunger_pump_red_rubber",
+    "iron_ingot": "hyperpressure:block/hand_cranked_plunger_pump_iron_ingot",
+    "plunger_blue": "hyperpressure:block/hand_cranked_plunger_pump_plunger_blue",
+    "cyan_glow": "hyperpressure:block/hand_cranked_plunger_pump_cyan_glow",
+    "bolt": "hyperpressure:block/hand_cranked_plunger_pump_bolt",
+    "blue_glass": "hyperpressure:block/hand_cranked_plunger_pump_blue_glass",
+    "pressure_gauge": "hyperpressure:block/hand_cranked_plunger_pump_pressure_gauge",
+    "slot_glow": "hyperpressure:block/hand_cranked_plunger_pump_slot_glow",
+    "pipe_port": "hyperpressure:block/hand_cranked_plunger_pump_pipe_port",
+    "particle": "hyperpressure:block/hand_cranked_plunger_pump_gunmetal"
+  },
+  "elements": [
+    {
+      "name": "inserted iron ingot cue",
+      "from": [
+        14.5,
+        6.15,
+        6.35
+      ],
+      "to": [
+        16,
+        7.65,
+        10.65
+      ],
+      "shade": true,
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            1.5,
+            1.5
+          ],
+          "texture": "#iron_ingot"
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            4.300000000000001,
+            1.5
+          ],
+          "texture": "#iron_ingot"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            1.5,
+            1.5
+          ],
+          "texture": "#iron_ingot"
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            4.300000000000001,
+            1.5
+          ],
+          "texture": "#iron_ingot"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            1.5,
+            4.300000000000001
+          ],
+          "texture": "#iron_ingot"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            1.5,
+            4.300000000000001
+          ],
+          "texture": "#iron_ingot"
+        }
+      }
+    }
+  ]
+}

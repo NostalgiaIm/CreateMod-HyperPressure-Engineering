@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "hyperpressure:item/super_engineer_goggles"
+  }
+}

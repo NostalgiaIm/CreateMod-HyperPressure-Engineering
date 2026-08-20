@@ -1,0 +1,38 @@
+{
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "item": "hyperpressure:ultra_pressure_alloy"
+    },
+    {
+      "item": "hyperpressure:ultra_pressure_alloy"
+    },
+    {
+      "item": "hyperpressure:ultra_pressure_alloy"
+    },
+    {
+      "item": "hyperpressure:ultra_pressure_alloy"
+    },
+    {
+      "item": "hyperpressure:ultra_pressure_alloy"
+    },
+    {
+      "item": "hyperpressure:ultra_pressure_alloy"
+    },
+    {
+      "item": "hyperpressure:ultra_pressure_alloy"
+    },
+    {
+      "item": "hyperpressure:ultra_pressure_alloy"
+    },
+    {
+      "item": "hyperpressure:ultra_pressure_alloy"
+    }
+  ],
+  "processing_time": 400,
+  "results": [
+    {
+      "id": "hyperpressure:dense_ultra_pressure_plate"
+    }
+  ]
+}

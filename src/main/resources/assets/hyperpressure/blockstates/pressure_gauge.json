@@ -1,0 +1,27 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "hyperpressure:block/pressure_gauge/block"
+    },
+    "facing=east": {
+      "model": "hyperpressure:block/pressure_gauge/block",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "hyperpressure:block/pressure_gauge/block",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "hyperpressure:block/pressure_gauge/block",
+      "y": 270
+    },
+    "facing=up": {
+      "model": "hyperpressure:block/pressure_gauge/block",
+      "x": 270
+    },
+    "facing=down": {
+      "model": "hyperpressure:block/pressure_gauge/block",
+      "x": 90
+    }
+  }
+}

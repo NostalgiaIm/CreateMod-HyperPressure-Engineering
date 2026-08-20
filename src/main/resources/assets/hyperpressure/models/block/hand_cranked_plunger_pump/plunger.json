@@ -1,0 +1,162 @@
+{
+  "credit": "Made with Blockbench for HyperPressure Engineering",
+  "parent": "block/block",
+  "render_type": "minecraft:cutout",
+  "textures": {
+    "gunmetal": "hyperpressure:block/hand_cranked_plunger_pump_gunmetal",
+    "dark_metal": "hyperpressure:block/hand_cranked_plunger_pump_dark_metal",
+    "cobalt_casing": "hyperpressure:block/hand_cranked_plunger_pump_cobalt_casing",
+    "red_rubber": "hyperpressure:block/hand_cranked_plunger_pump_red_rubber",
+    "iron_ingot": "hyperpressure:block/hand_cranked_plunger_pump_iron_ingot",
+    "plunger_blue": "hyperpressure:block/hand_cranked_plunger_pump_plunger_blue",
+    "cyan_glow": "hyperpressure:block/hand_cranked_plunger_pump_cyan_glow",
+    "bolt": "hyperpressure:block/hand_cranked_plunger_pump_bolt",
+    "blue_glass": "hyperpressure:block/hand_cranked_plunger_pump_blue_glass",
+    "pressure_gauge": "hyperpressure:block/hand_cranked_plunger_pump_pressure_gauge",
+    "slot_glow": "hyperpressure:block/hand_cranked_plunger_pump_slot_glow",
+    "pipe_port": "hyperpressure:block/hand_cranked_plunger_pump_pipe_port",
+    "particle": "hyperpressure:block/hand_cranked_plunger_pump_gunmetal"
+  },
+  "elements": [
+    {
+      "name": "visible blue plunger head",
+      "from": [
+        7.05,
+        7.2,
+        0.25
+      ],
+      "to": [
+        8.95,
+        10.8,
+        0.55
+      ],
+      "shade": true,
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            1.8999999999999995,
+            3.6000000000000005
+          ],
+          "texture": "#plunger_blue"
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            0.30000000000000004,
+            3.6000000000000005
+          ],
+          "texture": "#plunger_blue"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            1.8999999999999995,
+            3.6000000000000005
+          ],
+          "texture": "#plunger_blue"
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            0.30000000000000004,
+            3.6000000000000005
+          ],
+          "texture": "#plunger_blue"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            1.8999999999999995,
+            0.30000000000000004
+          ],
+          "texture": "#plunger_blue"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            1.8999999999999995,
+            0.30000000000000004
+          ],
+          "texture": "#plunger_blue"
+        }
+      }
+    },
+    {
+      "name": "plunger rod",
+      "from": [
+        7.55,
+        11,
+        7.55
+      ],
+      "to": [
+        8.45,
+        14.8,
+        8.45
+      ],
+      "shade": true,
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            0.8999999999999995,
+            3.8000000000000007
+          ],
+          "texture": "#plunger_blue"
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            0.8999999999999995,
+            3.8000000000000007
+          ],
+          "texture": "#plunger_blue"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            0.8999999999999995,
+            3.8000000000000007
+          ],
+          "texture": "#plunger_blue"
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            0.8999999999999995,
+            3.8000000000000007
+          ],
+          "texture": "#plunger_blue"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            0.8999999999999995,
+            0.8999999999999995
+          ],
+          "texture": "#plunger_blue"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            0.8999999999999995,
+            0.8999999999999995
+          ],
+          "texture": "#plunger_blue"
+        }
+      }
+    }
+  ]
+}

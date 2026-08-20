@@ -1,0 +1,2033 @@
+{
+  "meta": {
+    "format_version": "4.10",
+    "model_format": "java_block",
+    "box_uv": false
+  },
+  "name": "pressure_gauge",
+  "parent": "block/block",
+  "ambientocclusion": true,
+  "front_gui_light": false,
+  "visible_box": [
+    1,
+    1,
+    0
+  ],
+  "resolution": {
+    "width": 32,
+    "height": 32
+  },
+  "elements": [
+    {
+      "name": "sealed single-piece rear cover with interface art",
+      "from": [
+        1.2,
+        1.4,
+        14.45
+      ],
+      "to": [
+        14.8,
+        14.6,
+        15.05
+      ],
+      "shade": true,
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            13.600000000000001,
+            13.2
+          ],
+          "texture": "2"
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            0.6000000000000014,
+            13.2
+          ],
+          "texture": "2"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            32,
+            32
+          ],
+          "texture": "9"
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            0.6000000000000014,
+            13.2
+          ],
+          "texture": "2"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            13.600000000000001,
+            0.6000000000000014
+          ],
+          "texture": "2"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            13.600000000000001,
+            0.6000000000000014
+          ],
+          "texture": "2"
+        }
+      },
+      "autouv": 0,
+      "color": 0,
+      "locked": false,
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "uuid": "4ec72d88-26ab-1378-f1b5-bdf6b3525da5"
+    },
+    {
+      "name": "left shallow cobalt panel rail",
+      "from": [
+        1.1,
+        3.2,
+        10.65
+      ],
+      "to": [
+        2.7,
+        12.8,
+        15.05
+      ],
+      "shade": true,
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            1.6,
+            9.600000000000001
+          ],
+          "texture": "2"
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            4.4,
+            9.600000000000001
+          ],
+          "texture": "2"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            1.6,
+            9.600000000000001
+          ],
+          "texture": "2"
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            4.4,
+            9.600000000000001
+          ],
+          "texture": "2"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            1.6,
+            4.4
+          ],
+          "texture": "2"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            1.6,
+            4.4
+          ],
+          "texture": "2"
+        }
+      },
+      "autouv": 0,
+      "color": 1,
+      "locked": false,
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "uuid": "293fc2db-feee-af4d-2908-334fdc5553de"
+    },
+    {
+      "name": "right shallow cobalt panel rail",
+      "from": [
+        13.3,
+        3.2,
+        10.65
+      ],
+      "to": [
+        14.9,
+        12.8,
+        15.05
+      ],
+      "shade": true,
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            1.5999999999999996,
+            9.600000000000001
+          ],
+          "texture": "2"
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            4.4,
+            9.600000000000001
+          ],
+          "texture": "2"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            1.5999999999999996,
+            9.600000000000001
+          ],
+          "texture": "2"
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            4.4,
+            9.600000000000001
+          ],
+          "texture": "2"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            1.5999999999999996,
+            4.4
+          ],
+          "texture": "2"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            1.5999999999999996,
+            4.4
+          ],
+          "texture": "2"
+        }
+      },
+      "autouv": 0,
+      "color": 2,
+      "locked": false,
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "uuid": "e57cc389-312a-a937-6c7a-cb7fa0eb92d9"
+    },
+    {
+      "name": "top shallow cobalt panel rail",
+      "from": [
+        2.4,
+        12.15,
+        10.65
+      ],
+      "to": [
+        13.6,
+        14.05,
+        15.05
+      ],
+      "shade": true,
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            11.2,
+            1.9000000000000004
+          ],
+          "texture": "2"
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            4.4,
+            1.9000000000000004
+          ],
+          "texture": "2"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            11.2,
+            1.9000000000000004
+          ],
+          "texture": "2"
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            4.4,
+            1.9000000000000004
+          ],
+          "texture": "2"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            11.2,
+            4.4
+          ],
+          "texture": "2"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            11.2,
+            4.4
+          ],
+          "texture": "2"
+        }
+      },
+      "autouv": 0,
+      "color": 3,
+      "locked": false,
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "uuid": "43dcc8d8-d773-5e81-481b-249f71be5352"
+    },
+    {
+      "name": "bottom shallow cobalt panel rail",
+      "from": [
+        2.4,
+        1.95,
+        10.65
+      ],
+      "to": [
+        13.6,
+        3.85,
+        15.05
+      ],
+      "shade": true,
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            11.2,
+            1.9000000000000001
+          ],
+          "texture": "2"
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            4.4,
+            1.9000000000000001
+          ],
+          "texture": "2"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            11.2,
+            1.9000000000000001
+          ],
+          "texture": "2"
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            4.4,
+            1.9000000000000001
+          ],
+          "texture": "2"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            11.2,
+            4.4
+          ],
+          "texture": "2"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            11.2,
+            4.4
+          ],
+          "texture": "2"
+        }
+      },
+      "autouv": 0,
+      "color": 4,
+      "locked": false,
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "uuid": "e571e292-64e0-c17f-2571-4ba22c438661"
+    },
+    {
+      "name": "upper left chamfered panel corner",
+      "from": [
+        1.6,
+        11.65,
+        10.65
+      ],
+      "to": [
+        3.35,
+        13.4,
+        15.05
+      ],
+      "rotation": {
+        "angle": 45,
+        "axis": "z",
+        "origin": [
+          2.45,
+          12.5,
+          12.6
+        ]
+      },
+      "shade": true,
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            1.75,
+            1.75
+          ],
+          "texture": "2"
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            4.4,
+            1.75
+          ],
+          "texture": "2"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            1.75,
+            1.75
+          ],
+          "texture": "2"
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            4.4,
+            1.75
+          ],
+          "texture": "2"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            1.75,
+            4.4
+          ],
+          "texture": "2"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            1.75,
+            4.4
+          ],
+          "texture": "2"
+        }
+      },
+      "autouv": 0,
+      "color": 5,
+      "locked": false,
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "uuid": "98ce845c-0094-d47d-e7e2-89a147cc1eb7"
+    },
+    {
+      "name": "upper right chamfered panel corner",
+      "from": [
+        12.65,
+        11.65,
+        10.65
+      ],
+      "to": [
+        14.4,
+        13.4,
+        15.05
+      ],
+      "rotation": {
+        "angle": -45,
+        "axis": "z",
+        "origin": [
+          13.55,
+          12.5,
+          12.6
+        ]
+      },
+      "shade": true,
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            1.75,
+            1.75
+          ],
+          "texture": "2"
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            4.4,
+            1.75
+          ],
+          "texture": "2"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            1.75,
+            1.75
+          ],
+          "texture": "2"
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            4.4,
+            1.75
+          ],
+          "texture": "2"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            1.75,
+            4.4
+          ],
+          "texture": "2"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            1.75,
+            4.4
+          ],
+          "texture": "2"
+        }
+      },
+      "autouv": 0,
+      "color": 6,
+      "locked": false,
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "uuid": "0f53d9cb-b108-a87d-7cf2-7b530487f121"
+    },
+    {
+      "name": "lower left chamfered panel corner",
+      "from": [
+        1.6,
+        2.6,
+        10.65
+      ],
+      "to": [
+        3.35,
+        4.35,
+        15.05
+      ],
+      "rotation": {
+        "angle": -45,
+        "axis": "z",
+        "origin": [
+          2.45,
+          3.5,
+          12.6
+        ]
+      },
+      "shade": true,
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            1.75,
+            1.7499999999999996
+          ],
+          "texture": "2"
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            4.4,
+            1.7499999999999996
+          ],
+          "texture": "2"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            1.75,
+            1.7499999999999996
+          ],
+          "texture": "2"
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            4.4,
+            1.7499999999999996
+          ],
+          "texture": "2"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            1.75,
+            4.4
+          ],
+          "texture": "2"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            1.75,
+            4.4
+          ],
+          "texture": "2"
+        }
+      },
+      "autouv": 0,
+      "color": 7,
+      "locked": false,
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "uuid": "51ca5f49-651c-2d27-52e1-9a6e6ae6ac18"
+    },
+    {
+      "name": "lower right chamfered panel corner",
+      "from": [
+        12.65,
+        2.6,
+        10.65
+      ],
+      "to": [
+        14.4,
+        4.35,
+        15.05
+      ],
+      "rotation": {
+        "angle": 45,
+        "axis": "z",
+        "origin": [
+          13.55,
+          3.5,
+          12.6
+        ]
+      },
+      "shade": true,
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            1.75,
+            1.7499999999999996
+          ],
+          "texture": "2"
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            4.4,
+            1.7499999999999996
+          ],
+          "texture": "2"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            1.75,
+            1.7499999999999996
+          ],
+          "texture": "2"
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            4.4,
+            1.7499999999999996
+          ],
+          "texture": "2"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            1.75,
+            4.4
+          ],
+          "texture": "2"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            1.75,
+            4.4
+          ],
+          "texture": "2"
+        }
+      },
+      "autouv": 0,
+      "color": 0,
+      "locked": false,
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "uuid": "fb48ca19-a7f0-406a-64d4-51b78a0b6fe8"
+    },
+    {
+      "name": "inner left slim gunmetal display bevel",
+      "from": [
+        2.6,
+        4.15,
+        10.25
+      ],
+      "to": [
+        3.2,
+        11.85,
+        10.95
+      ],
+      "shade": true,
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            0.6000000000000001,
+            7.699999999999999
+          ],
+          "texture": "0"
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            0.6999999999999993,
+            7.699999999999999
+          ],
+          "texture": "0"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            0.6000000000000001,
+            7.699999999999999
+          ],
+          "texture": "0"
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            0.6999999999999993,
+            7.699999999999999
+          ],
+          "texture": "0"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            0.6000000000000001,
+            0.6999999999999993
+          ],
+          "texture": "0"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            0.6000000000000001,
+            0.6999999999999993
+          ],
+          "texture": "0"
+        }
+      },
+      "autouv": 0,
+      "color": 1,
+      "locked": false,
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "uuid": "4b6bc0d4-0858-2e63-78f2-8731cb3a0811"
+    },
+    {
+      "name": "inner right slim gunmetal display bevel",
+      "from": [
+        12.8,
+        4.15,
+        10.25
+      ],
+      "to": [
+        13.4,
+        11.85,
+        10.95
+      ],
+      "shade": true,
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            0.5999999999999996,
+            7.699999999999999
+          ],
+          "texture": "0"
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            0.6999999999999993,
+            7.699999999999999
+          ],
+          "texture": "0"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            0.5999999999999996,
+            7.699999999999999
+          ],
+          "texture": "0"
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            0.6999999999999993,
+            7.699999999999999
+          ],
+          "texture": "0"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            0.5999999999999996,
+            0.6999999999999993
+          ],
+          "texture": "0"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            0.5999999999999996,
+            0.6999999999999993
+          ],
+          "texture": "0"
+        }
+      },
+      "autouv": 0,
+      "color": 2,
+      "locked": false,
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "uuid": "f71da10f-a752-bd95-12a6-c391c97dbbe6"
+    },
+    {
+      "name": "inner top slim gunmetal display bevel",
+      "from": [
+        3,
+        11.25,
+        10.25
+      ],
+      "to": [
+        13,
+        11.85,
+        10.95
+      ],
+      "shade": true,
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            10,
+            0.5999999999999996
+          ],
+          "texture": "0"
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            0.6999999999999993,
+            0.5999999999999996
+          ],
+          "texture": "0"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            10,
+            0.5999999999999996
+          ],
+          "texture": "0"
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            0.6999999999999993,
+            0.5999999999999996
+          ],
+          "texture": "0"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            10,
+            0.6999999999999993
+          ],
+          "texture": "0"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            10,
+            0.6999999999999993
+          ],
+          "texture": "0"
+        }
+      },
+      "autouv": 0,
+      "color": 3,
+      "locked": false,
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "uuid": "4a018436-a3f1-cd64-f78b-f926f9a78b25"
+    },
+    {
+      "name": "inner bottom slim gunmetal display bevel",
+      "from": [
+        3,
+        4.15,
+        10.25
+      ],
+      "to": [
+        13,
+        4.75,
+        10.95
+      ],
+      "shade": true,
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            10,
+            0.5999999999999996
+          ],
+          "texture": "0"
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            0.6999999999999993,
+            0.5999999999999996
+          ],
+          "texture": "0"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            10,
+            0.5999999999999996
+          ],
+          "texture": "0"
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            0.6999999999999993,
+            0.5999999999999996
+          ],
+          "texture": "0"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            10,
+            0.6999999999999993
+          ],
+          "texture": "0"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            10,
+            0.6999999999999993
+          ],
+          "texture": "0"
+        }
+      },
+      "autouv": 0,
+      "color": 4,
+      "locked": false,
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "uuid": "982bebc9-e90f-b1e9-7c67-b060722c753f"
+    },
+    {
+      "name": "horizontal pressure bar face with 0 and 10 labels",
+      "from": [
+        2.8,
+        3.35,
+        10
+      ],
+      "to": [
+        13.2,
+        12.65,
+        10.2
+      ],
+      "shade": false,
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            32,
+            32
+          ],
+          "texture": "10"
+        }
+      },
+      "autouv": 0,
+      "color": 5,
+      "locked": false,
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "uuid": "2b8c88b1-1446-f0e4-5b4e-f9cfa8c78db8"
+    },
+    {
+      "name": "front hex socket bolt",
+      "from": [
+        1.55,
+        2.35,
+        9.62
+      ],
+      "to": [
+        2.95,
+        3.75,
+        10.25
+      ],
+      "shade": true,
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "7"
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            0.6300000000000008,
+            1.4
+          ],
+          "texture": "7"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            1.4000000000000001,
+            1.4
+          ],
+          "texture": "7"
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            0.6300000000000008,
+            1.4
+          ],
+          "texture": "7"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            1.4000000000000001,
+            0.6300000000000008
+          ],
+          "texture": "7"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            1.4000000000000001,
+            0.6300000000000008
+          ],
+          "texture": "7"
+        }
+      },
+      "autouv": 0,
+      "color": 6,
+      "locked": false,
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "uuid": "d29aa6f1-53d6-1f15-a50d-69caae2a4199"
+    },
+    {
+      "name": "front hex socket bolt",
+      "from": [
+        13.05,
+        2.35,
+        9.62
+      ],
+      "to": [
+        14.450000000000001,
+        3.75,
+        10.25
+      ],
+      "shade": true,
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "7"
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            0.6300000000000008,
+            1.4
+          ],
+          "texture": "7"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            1.4000000000000004,
+            1.4
+          ],
+          "texture": "7"
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            0.6300000000000008,
+            1.4
+          ],
+          "texture": "7"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            1.4000000000000004,
+            0.6300000000000008
+          ],
+          "texture": "7"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            1.4000000000000004,
+            0.6300000000000008
+          ],
+          "texture": "7"
+        }
+      },
+      "autouv": 0,
+      "color": 7,
+      "locked": false,
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "uuid": "bbe4c1d2-4221-02c2-a761-3a9716279e14"
+    },
+    {
+      "name": "front hex socket bolt",
+      "from": [
+        1.55,
+        12.25,
+        9.62
+      ],
+      "to": [
+        2.95,
+        13.65,
+        10.25
+      ],
+      "shade": true,
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "7"
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            0.6300000000000008,
+            1.4000000000000004
+          ],
+          "texture": "7"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            1.4000000000000001,
+            1.4000000000000004
+          ],
+          "texture": "7"
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            0.6300000000000008,
+            1.4000000000000004
+          ],
+          "texture": "7"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            1.4000000000000001,
+            0.6300000000000008
+          ],
+          "texture": "7"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            1.4000000000000001,
+            0.6300000000000008
+          ],
+          "texture": "7"
+        }
+      },
+      "autouv": 0,
+      "color": 0,
+      "locked": false,
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "uuid": "e749cb73-1861-65cf-cfe8-e5bb70beec2a"
+    },
+    {
+      "name": "front hex socket bolt",
+      "from": [
+        13.05,
+        12.25,
+        9.62
+      ],
+      "to": [
+        14.450000000000001,
+        13.65,
+        10.25
+      ],
+      "shade": true,
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "7"
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            0.6300000000000008,
+            1.4000000000000004
+          ],
+          "texture": "7"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            1.4000000000000004,
+            1.4000000000000004
+          ],
+          "texture": "7"
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            0.6300000000000008,
+            1.4000000000000004
+          ],
+          "texture": "7"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            1.4000000000000004,
+            0.6300000000000008
+          ],
+          "texture": "7"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            1.4000000000000004,
+            0.6300000000000008
+          ],
+          "texture": "7"
+        }
+      },
+      "autouv": 0,
+      "color": 1,
+      "locked": false,
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "uuid": "f66fa933-f4ac-4a70-d085-b8fea4036e1f"
+    },
+    {
+      "name": "slider horizontal pressure slider marker",
+      "from": [
+        9.35,
+        9.15,
+        9.28
+      ],
+      "to": [
+        10.450000000000001,
+        10.9,
+        9.62
+      ],
+      "shade": false,
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "14"
+        }
+      },
+      "autouv": 0,
+      "color": 2,
+      "locked": false,
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "uuid": "022b288b-029f-2ce9-97a5-181987e8b534"
+    },
+    {
+      "name": "slider vertical slider rail",
+      "from": [
+        9.72,
+        5.5,
+        9.34
+      ],
+      "to": [
+        10.08,
+        10.15,
+        9.52
+      ],
+      "shade": false,
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            0.35999999999999943,
+            4.65
+          ],
+          "texture": "3"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            0.35999999999999943,
+            4.65
+          ],
+          "texture": "3"
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            0.17999999999999972,
+            4.65
+          ],
+          "texture": "3"
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            0.17999999999999972,
+            4.65
+          ],
+          "texture": "3"
+        }
+      },
+      "autouv": 0,
+      "color": 3,
+      "locked": false,
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "uuid": "3e7f744f-c8de-8779-71ed-bac8f67ffd05"
+    },
+    {
+      "name": "slider_warning horizontal pressure slider marker",
+      "from": [
+        10.399999999999999,
+        9.15,
+        9.2
+      ],
+      "to": [
+        11.5,
+        10.9,
+        9.54
+      ],
+      "shade": false,
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "14"
+        }
+      },
+      "autouv": 0,
+      "color": 4,
+      "locked": false,
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "uuid": "039ccec2-fb32-96d9-f830-6113e151055c"
+    },
+    {
+      "name": "slider_warning vertical slider rail",
+      "from": [
+        10.77,
+        5.5,
+        9.26
+      ],
+      "to": [
+        11.129999999999999,
+        10.15,
+        9.44
+      ],
+      "shade": false,
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            0.35999999999999943,
+            4.65
+          ],
+          "texture": "4"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            0.35999999999999943,
+            4.65
+          ],
+          "texture": "4"
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            0.17999999999999972,
+            4.65
+          ],
+          "texture": "4"
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            0.17999999999999972,
+            4.65
+          ],
+          "texture": "4"
+        }
+      },
+      "autouv": 0,
+      "color": 5,
+      "locked": false,
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "uuid": "3f0f23d7-e25d-df38-96cd-05387d6dec68"
+    },
+    {
+      "name": "slider_danger horizontal pressure slider marker",
+      "from": [
+        11.649999999999999,
+        9.15,
+        9.12
+      ],
+      "to": [
+        12.75,
+        10.9,
+        9.459999999999999
+      ],
+      "shade": false,
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "14"
+        }
+      },
+      "autouv": 0,
+      "color": 6,
+      "locked": false,
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "uuid": "aa50ddb7-a22b-8618-efd9-7d162db52b2c"
+    },
+    {
+      "name": "slider_danger vertical slider rail",
+      "from": [
+        12.02,
+        5.5,
+        9.18
+      ],
+      "to": [
+        12.379999999999999,
+        10.15,
+        9.36
+      ],
+      "shade": false,
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            0.35999999999999943,
+            4.65
+          ],
+          "texture": "5"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            0.35999999999999943,
+            4.65
+          ],
+          "texture": "5"
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            0.17999999999999972,
+            4.65
+          ],
+          "texture": "5"
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            0.17999999999999972,
+            4.65
+          ],
+          "texture": "5"
+        }
+      },
+      "autouv": 0,
+      "color": 7,
+      "locked": false,
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "uuid": "fd168489-01c1-b2e7-517f-5791e77159ac"
+    }
+  ],
+  "outliner": [
+    {
+      "name": "Sealed single-piece rear cover",
+      "origin": [
+        8,
+        8,
+        14.75
+      ],
+      "uuid": "3140bfeb-52ac-6c41-82dc-002187ee3acb",
+      "export": true,
+      "isOpen": true,
+      "locked": false,
+      "visibility": true,
+      "children": [
+        "4ec72d88-26ab-1378-f1b5-bdf6b3525da5"
+      ]
+    },
+    {
+      "name": "Deep cobalt rectangular shell with corner bolts",
+      "origin": [
+        8,
+        8,
+        12.6
+      ],
+      "uuid": "81487e83-5777-340c-2ee6-2a54d08feacb",
+      "export": true,
+      "isOpen": true,
+      "locked": false,
+      "visibility": true,
+      "children": [
+        "293fc2db-feee-af4d-2908-334fdc5553de",
+        "e57cc389-312a-a937-6c7a-cb7fa0eb92d9",
+        "43dcc8d8-d773-5e81-481b-249f71be5352",
+        "e571e292-64e0-c17f-2571-4ba22c438661",
+        "98ce845c-0094-d47d-e7e2-89a147cc1eb7",
+        "0f53d9cb-b108-a87d-7cf2-7b530487f121",
+        "51ca5f49-651c-2d27-52e1-9a6e6ae6ac18",
+        "fb48ca19-a7f0-406a-64d4-51b78a0b6fe8",
+        "4b6bc0d4-0858-2e63-78f2-8731cb3a0811",
+        "f71da10f-a752-bd95-12a6-c391c97dbbe6",
+        "4a018436-a3f1-cd64-f78b-f926f9a78b25",
+        "982bebc9-e90f-b1e9-7c67-b060722c753f",
+        "d29aa6f1-53d6-1f15-a50d-69caae2a4199",
+        "bbe4c1d2-4221-02c2-a761-3a9716279e14",
+        "e749cb73-1861-65cf-cfe8-e5bb70beec2a",
+        "f66fa933-f4ac-4a70-d085-b8fea4036e1f"
+      ]
+    },
+    {
+      "name": "Single-layer horizontal pressure bar face",
+      "origin": [
+        8,
+        8,
+        10.1
+      ],
+      "uuid": "1d11c0d3-a7ed-bbf4-8312-22fc9dce87ed",
+      "export": true,
+      "isOpen": true,
+      "locked": false,
+      "visibility": true,
+      "children": [
+        "2b8c88b1-1446-f0e4-5b4e-f9cfa8c78db8"
+      ]
+    },
+    {
+      "name": "Slider - cyan safe state, translate horizontally",
+      "origin": [
+        9.9,
+        8,
+        9.45
+      ],
+      "uuid": "56ca0341-8317-86db-e52c-b240265e0ac0",
+      "export": true,
+      "isOpen": true,
+      "locked": false,
+      "visibility": true,
+      "children": [
+        "022b288b-029f-2ce9-97a5-181987e8b534",
+        "3e7f744f-c8de-8779-71ed-bac8f67ffd05"
+      ]
+    },
+    {
+      "name": "Slider - yellow warning state",
+      "origin": [
+        10.95,
+        8,
+        9.37
+      ],
+      "uuid": "5797990d-311b-7532-ec37-4263c48832e6",
+      "export": true,
+      "isOpen": true,
+      "locked": false,
+      "visibility": false,
+      "children": [
+        "039ccec2-fb32-96d9-f830-6113e151055c",
+        "3f0f23d7-e25d-df38-96cd-05387d6dec68"
+      ]
+    },
+    {
+      "name": "Slider - red danger state",
+      "origin": [
+        12.2,
+        8,
+        9.29
+      ],
+      "uuid": "a5b0507f-212f-1a08-7ac8-0708bd234116",
+      "export": true,
+      "isOpen": true,
+      "locked": false,
+      "visibility": false,
+      "children": [
+        "aa50ddb7-a22b-8618-efd9-7d162db52b2c",
+        "fd168489-01c1-b2e7-517f-5791e77159ac"
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "path": "assets/hyperpressure/textures/block/pressure_gauge_gunmetal.png",
+      "name": "pressure_gauge_gunmetal.png",
+      "folder": "block",
+      "namespace": "hyperpressure",
+      "id": "0",
+      "particle": false,
+      "visible": true,
+      "mode": "bitmap",
+      "saved": true,
+      "uuid": "a3026cd2-524d-c921-ea3a-93f2fe58cfb8",
+      "source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAbUlEQVR4nGNwDoz5H5SUTzZmEJNV+a9v5QbGVm5BcDYhrGlsh2kAMibGMLwG4DMMZDtJBuAyjCwDYLaTbQBZYYDNdhQDSIk+gi7AZRi67UR5gZDLiA4DkO3YDCM7FmCGEWUANr9TPx2Qi0EGAADSpbKZwmF/dgAAAABJRU5ErkJggg=="
+    },
+    {
+      "path": "assets/hyperpressure/textures/block/pressure_gauge_dark_metal.png",
+      "name": "pressure_gauge_dark_metal.png",
+      "folder": "block",
+      "namespace": "hyperpressure",
+      "id": "1",
+      "particle": false,
+      "visible": true,
+      "mode": "bitmap",
+      "saved": true,
+      "uuid": "f217b7d9-04d5-cc42-71c7-b80fa4752ebc",
+      "source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAbUlEQVR4nGNQ1bP4r2/lRjZmYOfk+S8mqwLGcmp6cDYhLCQhh2kAMibGMLwG4DMMZDtJBuAyjCwDYLaTbQBZYYDNdhQDSIk+gi7AZRi67UR5gZDLiA4DkO3YDCM7FmCGEWUANr9TPx2Qi0EGAACo2FpvUTKRjAAAAABJRU5ErkJggg=="
+    },
+    {
+      "path": "assets/hyperpressure/textures/block/pressure_gauge_cobalt_casing.png",
+      "name": "pressure_gauge_cobalt_casing.png",
+      "folder": "block",
+      "namespace": "hyperpressure",
+      "id": "2",
+      "particle": true,
+      "visible": true,
+      "mode": "bitmap",
+      "saved": true,
+      "uuid": "356c5347-6401-9e6e-73bc-6547e08b9b6b",
+      "source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAbUlEQVR4nGNQD63+b5AxhWzMwCNj8F/KOgaMFT1z4WxCWNw4ENMAZEyMYXgNwGcYyHaSDMBlGFkGwGwn2wCywgCb7SgGkBJ9BF2AyzB024nyAiGXER0GINuxGUZ2LMAMI8oAbH6nfjogF4MMAAAyg7VnRD2EVQAAAABJRU5ErkJggg=="
+    },
+    {
+      "path": "assets/hyperpressure/textures/block/pressure_gauge_cyan_glow.png",
+      "name": "pressure_gauge_cyan_glow.png",
+      "folder": "block",
+      "namespace": "hyperpressure",
+      "id": "3",
+      "particle": false,
+      "visible": true,
+      "mode": "bitmap",
+      "saved": true,
+      "uuid": "1f481668-b65d-99fb-721a-c31d3ae79ad5",
+      "source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAbElEQVR4nGNg2nbmP8PT/+RjNg2T/wKpHWDM3b0GziaE+cKKMQ1AxsQYhtcAfIaBbCfJAFyGkWUAzHayDSArDLDZjmIAKdFH0AW4DEO3nSgvEHIZ0WEAsh2bYWTHAswwogzA5nfqpwNyMcgAAPq3B4w87jFEAAAAAElFTkSuQmCC"
+    },
+    {
+      "path": "assets/hyperpressure/textures/block/pressure_gauge_yellow_glow.png",
+      "name": "pressure_gauge_yellow_glow.png",
+      "folder": "block",
+      "namespace": "hyperpressure",
+      "id": "4",
+      "particle": false,
+      "visible": true,
+      "mode": "bitmap",
+      "saved": true,
+      "uuid": "1e1671d7-c893-8efd-9228-0139c75cc770",
+      "source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAbUlEQVR4nGM4s8rq///r3mRjBhNFtv89cXxgvL5JAc4mhMv8eTANQMbEGIbXAHyGgWwnyQBchpFlAMx2sg0gKwyw2Y5iACnRR9AFuAxDt50oLxByGdFhALIdm2FkxwLMMKIMwOZ36qcDcjHIAAD3NArsZo9iOgAAAABJRU5ErkJggg=="
+    },
+    {
+      "path": "assets/hyperpressure/textures/block/pressure_gauge_red_glow.png",
+      "name": "pressure_gauge_red_glow.png",
+      "folder": "block",
+      "namespace": "hyperpressure",
+      "id": "5",
+      "particle": false,
+      "visible": true,
+      "mode": "bitmap",
+      "saved": true,
+      "uuid": "eb98ee4d-f249-8176-2c72-128c775b0b02",
+      "source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAbUlEQVR4nGPYqaX2/5mZPtmYwZCd83+JqDgYT5OXg7MJ4WQhEUwDkDExhuE1AJ9hINtJMgCXYWQZALOdbAPICgNstqMYQEr0EXQBLsPQbSfKC4RcRnQYgGzHZhjZsQAzjCgDsPmd+umAXAwyAAAhA6nqfsBWjgAAAABJRU5ErkJggg=="
+    },
+    {
+      "path": "assets/hyperpressure/textures/block/pressure_gauge_redstone_contact.png",
+      "name": "pressure_gauge_redstone_contact.png",
+      "folder": "block",
+      "namespace": "hyperpressure",
+      "id": "6",
+      "particle": false,
+      "visible": true,
+      "mode": "bitmap",
+      "saved": true,
+      "uuid": "e90e550d-8742-aead-ecec-f9270d6471eb",
+      "source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAd0lEQVR4nGNwDoz5H5SUTzZmEJNV+a9v5QbGVm5BcDYhrGlsh2kAMibGMLwG4DMMZDtJBuAyDMOAElFxojBeA65rqeLFBA14ZqaPF2M1AOYvkOTztAS8mPZeoCgQ8aU6bAmLrHSAnBaIMgCW6ihKygQNIBeDDAAAg8/FLkjecusAAAAASUVORK5CYII="
+    },
+    {
+      "path": "assets/hyperpressure/textures/block/pressure_gauge_bolt.png",
+      "name": "pressure_gauge_bolt.png",
+      "folder": "block",
+      "namespace": "hyperpressure",
+      "id": "7",
+      "particle": false,
+      "visible": true,
+      "mode": "bitmap",
+      "saved": true,
+      "uuid": "c28c8271-ca26-4cf5-6991-cb4ddd5324f7",
+      "source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAQklEQVR4nGNgGAUYICgp/z8+TJQBYrIq5BmArBBkyOsvn0gzBF0hLpeQ5H9shpBsALohRIcDNpfg1YzPAKKjcQQCAMFXlauICuUZAAAAAElFTkSuQmCC"
+    },
+    {
+      "path": "assets/hyperpressure/textures/block/pressure_gauge_pipe_port.png",
+      "name": "pressure_gauge_pipe_port.png",
+      "folder": "block",
+      "namespace": "hyperpressure",
+      "id": "8",
+      "particle": false,
+      "visible": true,
+      "mode": "bitmap",
+      "saved": true,
+      "uuid": "49fb844e-79ed-cfe1-7359-53cb719afc0b",
+      "source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAiElEQVR4nGNwDoz5H5SUTzZmEJNV+a9v5QbGVm5BcDYhrGlsh2kADOOyDZs6DANgikHiyBjZEJDtWA1A1yyQ2gHG2AzBMABZM0wjOkY3BMMAZJuFbGNRMLpLcBoAUsjw9D9WjOwKFANA0UfI+ejeoI0XKApEiqORlIQES/K0ScqkYLgB5GKQAQCIaMtqOWhm2QAAAABJRU5ErkJggg=="
+    },
+    {
+      "path": "assets/hyperpressure/textures/block/pressure_gauge_rear_cover.png",
+      "name": "pressure_gauge_rear_cover.png",
+      "folder": "block",
+      "namespace": "hyperpressure",
+      "id": "9",
+      "particle": false,
+      "visible": true,
+      "mode": "bitmap",
+      "saved": true,
+      "uuid": "fca19c52-b654-5a5d-c3bd-02ce7b4fb492",
+      "source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAABUklEQVR4nNWXPQqCMQyGewAHEdRFNxcnBcFB0EVw11EURBDcXDyEB/CK6jE+qVCpMWnSpAgOL+gHyfs0bfrj5stNtdqf1LLGu1a3Vw0mi5cmi9X7N6f+aPZKYI1/AwyP15/Ke34B1DpDsWApc2KTAJb5lEgE4L/F0pphebIBYFJucaUgsgEocziyIA6CBPDtwwHE5vXDBRUFoaoAZ96Ybj8kgVABQHNojIFgEFkAcPSpkXOVULUhBcCZY1UwAYQyululErYWVADUquckBvDCAAKcZQpgRwWA8N2F8/zXayD8F7dhbhdwbYjeB1IbkaQVUy1YfCfUbMdZABREfBjFprFxkbMAg4AmmLAYEwB1IeHuAVQeFYDmVkTlyLoPaEC4WHUFSuh/AILOzXYRYVux6GHig+/jgUk+h/hhAuWDH7u1ST6H6GmGqdQUpN4QzrqorPFPzv82sJSlWUYAAAAASUVORK5CYII="
+    },
+    {
+      "path": "assets/hyperpressure/textures/block/pressure_gauge_bar_face.png",
+      "name": "pressure_gauge_bar_face.png",
+      "folder": "block",
+      "namespace": "hyperpressure",
+      "id": "10",
+      "particle": false,
+      "visible": true,
+      "mode": "bitmap",
+      "saved": true,
+      "uuid": "92b204d5-3e43-b323-8db3-21bc89aeefc2",
+      "source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAABuElEQVR4nGNQ1bP4r2/lRjamVD8DOyfPfzFZFTCWU9ODswlhIQk5sAGU6kdxADImxjB0B5CjH+4Ag4wpdMVYHSBlHUMXPPgdEJSUTxH+Xq+EVZwkB4DEYDQhjK4O5AB0ObwOAKVYXA4IedzxP/hR3/+gh1P+B96f+T/w3vz/AXeX/ve/s/q/360N/31vbQOr+3km5f+P7dH/vy4OBDtAzdD6v6yqLnEOwBcCevdz/+veLf2vc6fmv/at5v9aN7v+a16f9F/j2sz/6lcW/Fe7vBys7u8hx/+/V5j+/9GvCXYAyHKQIwbMAaMhMBoCJIUACONygPqOmP9q25P+q27L+K+6Je+/ypbi/8qbqv4rbWz4r7i+9b/C+m6wuosLzf+f79b7f7ZchagQANkJdgCsPqd3QYTRHqB3UYzRHqBGZcTw9D8GpmttOOAOQHcE2dUxrTFBB7z+8gmOsRkgkNqBwoZhZDkQjawf2UyiHIBMY7Mc3RHYHITuABhNsD1AyAHIPqaKA6gdAriigCQH4EoDpDoA2WKi08CA5YIB7Zjg68OR0zUjVj9BB+DDxDiAkH54e4AcDHMAJfoBlYFkp1aY6xAAAAAASUVORK5CYII="
+    },
+    {
+      "path": "assets/hyperpressure/textures/block/pressure_gauge_glass.png",
+      "name": "pressure_gauge_glass.png",
+      "folder": "block",
+      "namespace": "hyperpressure",
+      "id": "11",
+      "particle": false,
+      "visible": true,
+      "mode": "bitmap",
+      "saved": true,
+      "uuid": "cccbf301-1008-92ad-9607-47b5c3ae523f",
+      "source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAbklEQVR4nGNgGAWjYLCBnV/+F9MSE+WAvtf/PbDh////T0PHuNRiwyQ5gJBlJ77/L8aHKXYAIUtI8TnZDqA2HnXAqAMGzAHXf/+PB2G6OwBmMd1DAN1iujoAm8UkO2BAK6NRMApGwSgYBaOA3gAAw23I01NyQjkAAAAASUVORK5CYII="
+    },
+    {
+      "path": "assets/hyperpressure/textures/block/pressure_gauge_status_warning.png",
+      "name": "pressure_gauge_status_warning.png",
+      "folder": "block",
+      "namespace": "hyperpressure",
+      "id": "12",
+      "particle": false,
+      "visible": true,
+      "mode": "bitmap",
+      "saved": true,
+      "uuid": "9ec75704-d58b-a8b2-9ac2-0b68f09960ac",
+      "source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAANElEQVR4nO3OMQ0AIAwAwapjqSGUYK1yys7MQrhLfv8I4IKuXF05jqYBAwYMGPhnAACetgFMJrMR08XziQAAAABJRU5ErkJggg=="
+    },
+    {
+      "path": "assets/hyperpressure/textures/block/pressure_gauge_status_danger.png",
+      "name": "pressure_gauge_status_danger.png",
+      "folder": "block",
+      "namespace": "hyperpressure",
+      "id": "13",
+      "particle": false,
+      "visible": true,
+      "mode": "bitmap",
+      "saved": true,
+      "uuid": "a421958e-5cc3-cdd5-f8e4-8e33347adf9d",
+      "source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAN0lEQVR4nO3OMQ0AIAwAwRpibsKEE1yhBH+w4YCBcJf8/hHAJSvLXK32U5ZhwIABAwb+GgCAZ2yCA3MhA9+d3wAAAABJRU5ErkJggg=="
+    },
+    {
+      "path": "assets/hyperpressure/textures/block/pressure_gauge_slider.png",
+      "name": "pressure_gauge_slider.png",
+      "folder": "block",
+      "namespace": "hyperpressure",
+      "id": "14",
+      "particle": false,
+      "visible": true,
+      "mode": "bitmap",
+      "saved": true,
+      "uuid": "c7141653-7300-9a0b-7c6b-efa93142967a",
+      "source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAOUlEQVR4nGNgGLTg9ZdP/5HxUDLg6f//eDHtDcBnCMXeIAlQpJkqBiAbQjag1ACB1I7/IEy+C+gBABzmpTF1VCojAAAAAElFTkSuQmCC"
+    }
+  ]
+}

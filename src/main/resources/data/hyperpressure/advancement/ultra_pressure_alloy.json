@@ -1,0 +1,34 @@
+{
+  "parent": "hyperpressure:reinforced_high_pressure_alloy",
+  "criteria": {
+    "0": {
+      "conditions": {
+        "items": [
+          {
+            "items": "hyperpressure:ultra_pressure_alloy"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancement.hyperpressure.ultra_pressure_alloy.desc"
+    },
+    "icon": {
+      "count": 1,
+      "id": "hyperpressure:ultra_pressure_alloy"
+    },
+    "title": {
+      "translate": "advancement.hyperpressure.ultra_pressure_alloy"
+    }
+  },
+  "requirements": [
+    [
+      "0"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

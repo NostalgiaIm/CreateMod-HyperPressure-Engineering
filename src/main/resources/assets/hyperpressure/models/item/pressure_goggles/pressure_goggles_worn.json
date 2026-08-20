@@ -1,0 +1,41 @@
+{
+  "parent": "hyperpressure:item/pressure_goggles/base",
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 1
+      },
+      "model": "hyperpressure:item/pressure_goggles/attachments_1"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2
+      },
+      "model": "hyperpressure:item/pressure_goggles/attachments_2"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 3
+      },
+      "model": "hyperpressure:item/pressure_goggles/attachments_3"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 4
+      },
+      "model": "hyperpressure:item/pressure_goggles/attachments_4"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10
+      },
+      "model": "hyperpressure:item/pressure_goggles/warning"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 11
+      },
+      "model": "hyperpressure:item/pressure_goggles/overload"
+    }
+  ]
+}

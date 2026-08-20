@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "B": {
+      "item": "create:brass_sheet"
+    },
+    "G": {
+      "tag": "c:glass_blocks"
+    },
+    "R": {
+      "item": "minecraft:redstone"
+    }
+  },
+  "pattern": [
+    "BRB",
+    "G G"
+  ],
+  "result": {
+    "count": 1,
+    "id": "hyperpressure:pressure_goggles"
+  }
+}

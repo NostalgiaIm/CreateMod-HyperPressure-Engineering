@@ -1,0 +1,87 @@
+{
+  "parent": "hyperpressure:dense_ultra_pressure_plate",
+  "criteria": {
+    "high_pressure_alloy": {
+      "conditions": {
+        "items": [
+          {
+            "items": "hyperpressure:high_pressure_alloy"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "reinforced_high_pressure_alloy": {
+      "conditions": {
+        "items": [
+          {
+            "items": "hyperpressure:reinforced_high_pressure_alloy"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "resonant_alloy": {
+      "conditions": {
+        "items": [
+          {
+            "items": "hyperpressure:resonant_alloy"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "ultra_pressure_alloy": {
+      "conditions": {
+        "items": [
+          {
+            "items": "hyperpressure:ultra_pressure_alloy"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "dense_ultra_pressure_plate": {
+      "conditions": {
+        "items": [
+          {
+            "items": "hyperpressure:dense_ultra_pressure_plate"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancement.hyperpressure.master.desc"
+    },
+    "frame": "challenge",
+    "icon": {
+      "count": 1,
+      "id": "hyperpressure:dense_ultra_pressure_plate"
+    },
+    "title": {
+      "translate": "advancement.hyperpressure.master"
+    }
+  },
+  "requirements": [
+    [
+      "high_pressure_alloy"
+    ],
+    [
+      "reinforced_high_pressure_alloy"
+    ],
+    [
+      "resonant_alloy"
+    ],
+    [
+      "ultra_pressure_alloy"
+    ],
+    [
+      "dense_ultra_pressure_plate"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

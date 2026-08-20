@@ -1,0 +1,13 @@
+{
+  "type": "hyperpressure:hand_pump_pressurizing",
+  "first": {
+    "item": "minecraft:iron_ingot"
+  },
+  "second": {
+    "tag": "hyperpressure:pump_carbons"
+  },
+  "pressure": 4.0,
+  "result": {
+    "id": "hyperpressure:high_pressure_alloy"
+  }
+}

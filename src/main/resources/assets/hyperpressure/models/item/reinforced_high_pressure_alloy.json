@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "hyperpressure:item/reinforced_high_pressure_alloy"
+  }
+}

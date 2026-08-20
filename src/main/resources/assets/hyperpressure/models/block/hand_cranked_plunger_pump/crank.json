@@ -1,0 +1,442 @@
+{
+  "credit": "Made with Blockbench for HyperPressure Engineering",
+  "parent": "block/block",
+  "render_type": "minecraft:cutout",
+  "textures": {
+    "gunmetal": "hyperpressure:block/hand_cranked_plunger_pump_gunmetal",
+    "dark_metal": "hyperpressure:block/hand_cranked_plunger_pump_dark_metal",
+    "cobalt_casing": "hyperpressure:block/hand_cranked_plunger_pump_cobalt_casing",
+    "red_rubber": "hyperpressure:block/hand_cranked_plunger_pump_red_rubber",
+    "iron_ingot": "hyperpressure:block/hand_cranked_plunger_pump_iron_ingot",
+    "plunger_blue": "hyperpressure:block/hand_cranked_plunger_pump_plunger_blue",
+    "cyan_glow": "hyperpressure:block/hand_cranked_plunger_pump_cyan_glow",
+    "bolt": "hyperpressure:block/hand_cranked_plunger_pump_bolt",
+    "blue_glass": "hyperpressure:block/hand_cranked_plunger_pump_blue_glass",
+    "pressure_gauge": "hyperpressure:block/hand_cranked_plunger_pump_pressure_gauge",
+    "slot_glow": "hyperpressure:block/hand_cranked_plunger_pump_slot_glow",
+    "pipe_port": "hyperpressure:block/hand_cranked_plunger_pump_pipe_port",
+    "particle": "hyperpressure:block/hand_cranked_plunger_pump_gunmetal"
+  },
+  "elements": [
+    {
+      "name": "top handle stem",
+      "from": [
+        7.25,
+        13.1,
+        7.25
+      ],
+      "to": [
+        8.75,
+        15.4,
+        8.75
+      ],
+      "shade": true,
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            1.5,
+            2.3000000000000007
+          ],
+          "texture": "#gunmetal"
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            1.5,
+            2.3000000000000007
+          ],
+          "texture": "#gunmetal"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            1.5,
+            2.3000000000000007
+          ],
+          "texture": "#gunmetal"
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            1.5,
+            2.3000000000000007
+          ],
+          "texture": "#gunmetal"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            1.5,
+            1.5
+          ],
+          "texture": "#gunmetal"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            1.5,
+            1.5
+          ],
+          "texture": "#gunmetal"
+        }
+      }
+    },
+    {
+      "name": "top T handle bar",
+      "from": [
+        4.3,
+        14.85,
+        7
+      ],
+      "to": [
+        11.7,
+        15.95,
+        9
+      ],
+      "shade": true,
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            7.3999999999999995,
+            1.0999999999999996
+          ],
+          "texture": "#gunmetal"
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            2,
+            1.0999999999999996
+          ],
+          "texture": "#gunmetal"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            7.3999999999999995,
+            1.0999999999999996
+          ],
+          "texture": "#gunmetal"
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            2,
+            1.0999999999999996
+          ],
+          "texture": "#gunmetal"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            7.3999999999999995,
+            2
+          ],
+          "texture": "#gunmetal"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            7.3999999999999995,
+            2
+          ],
+          "texture": "#gunmetal"
+        }
+      }
+    },
+    {
+      "name": "left red top grip",
+      "from": [
+        2.7,
+        14.75,
+        6.6
+      ],
+      "to": [
+        4.5,
+        15.95,
+        9.4
+      ],
+      "shade": true,
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            1.7999999999999998,
+            1.1999999999999993
+          ],
+          "texture": "#red_rubber"
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            2.8000000000000007,
+            1.1999999999999993
+          ],
+          "texture": "#red_rubber"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            1.7999999999999998,
+            1.1999999999999993
+          ],
+          "texture": "#red_rubber"
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            2.8000000000000007,
+            1.1999999999999993
+          ],
+          "texture": "#red_rubber"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            1.7999999999999998,
+            2.8000000000000007
+          ],
+          "texture": "#red_rubber"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            1.7999999999999998,
+            2.8000000000000007
+          ],
+          "texture": "#red_rubber"
+        }
+      }
+    },
+    {
+      "name": "right red top grip",
+      "from": [
+        11.5,
+        14.75,
+        6.6
+      ],
+      "to": [
+        13.3,
+        15.95,
+        9.4
+      ],
+      "shade": true,
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            1.8000000000000007,
+            1.1999999999999993
+          ],
+          "texture": "#red_rubber"
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            2.8000000000000007,
+            1.1999999999999993
+          ],
+          "texture": "#red_rubber"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            1.8000000000000007,
+            1.1999999999999993
+          ],
+          "texture": "#red_rubber"
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            2.8000000000000007,
+            1.1999999999999993
+          ],
+          "texture": "#red_rubber"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            1.8000000000000007,
+            2.8000000000000007
+          ],
+          "texture": "#red_rubber"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            1.8000000000000007,
+            2.8000000000000007
+          ],
+          "texture": "#red_rubber"
+        }
+      }
+    },
+    {
+      "name": "side crank arm",
+      "from": [
+        14.6,
+        9.5,
+        7.25
+      ],
+      "to": [
+        15.6,
+        13.7,
+        8.75
+      ],
+      "shade": true,
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            1,
+            4.199999999999999
+          ],
+          "texture": "#gunmetal"
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            1.5,
+            4.199999999999999
+          ],
+          "texture": "#gunmetal"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            1,
+            4.199999999999999
+          ],
+          "texture": "#gunmetal"
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            1.5,
+            4.199999999999999
+          ],
+          "texture": "#gunmetal"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            1,
+            1.5
+          ],
+          "texture": "#gunmetal"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            1,
+            1.5
+          ],
+          "texture": "#gunmetal"
+        }
+      }
+    },
+    {
+      "name": "red crank grip",
+      "from": [
+        13.8,
+        13.25,
+        6.2
+      ],
+      "to": [
+        16,
+        15.25,
+        9.8
+      ],
+      "shade": true,
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            2.1999999999999993,
+            2
+          ],
+          "texture": "#red_rubber"
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            3.6000000000000005,
+            2
+          ],
+          "texture": "#red_rubber"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            2.1999999999999993,
+            2
+          ],
+          "texture": "#red_rubber"
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            3.6000000000000005,
+            2
+          ],
+          "texture": "#red_rubber"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            2.1999999999999993,
+            3.6000000000000005
+          ],
+          "texture": "#red_rubber"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            2.1999999999999993,
+            3.6000000000000005
+          ],
+          "texture": "#red_rubber"
+        }
+      }
+    }
+  ]
+}

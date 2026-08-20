@@ -1,0 +1,34 @@
+{
+  "criteria": {
+    "0": {
+      "conditions": {
+        "items": [
+          {
+            "items": "hyperpressure:hand_cranked_plunger_pump"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "background": "minecraft:textures/block/deepslate_tiles.png",
+    "description": {
+      "translate": "advancement.hyperpressure.root.desc"
+    },
+    "icon": {
+      "count": 1,
+      "id": "hyperpressure:hand_cranked_plunger_pump"
+    },
+    "title": {
+      "translate": "advancement.hyperpressure.root"
+    }
+  },
+  "requirements": [
+    [
+      "0"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

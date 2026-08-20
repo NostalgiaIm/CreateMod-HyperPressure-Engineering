@@ -1,0 +1,35 @@
+{
+  "parent": "hyperpressure:ultra_pressure_alloy",
+  "criteria": {
+    "0": {
+      "conditions": {
+        "items": [
+          {
+            "items": "hyperpressure:dense_ultra_pressure_plate"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancement.hyperpressure.dense_ultra_pressure_plate.desc"
+    },
+    "frame": "goal",
+    "icon": {
+      "count": 1,
+      "id": "hyperpressure:dense_ultra_pressure_plate"
+    },
+    "title": {
+      "translate": "advancement.hyperpressure.dense_ultra_pressure_plate"
+    }
+  },
+  "requirements": [
+    [
+      "0"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

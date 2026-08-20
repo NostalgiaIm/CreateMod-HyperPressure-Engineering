@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "hyperpressure_alloys",
+  "ingredients": [
+    {
+      "item": "hyperpressure:high_pressure_alloy"
+    },
+    {
+      "item": "minecraft:copper_ingot"
+    }
+  ],
+  "result": {
+    "count": 2,
+    "id": "hyperpressure:reinforced_high_pressure_alloy"
+  }
+}

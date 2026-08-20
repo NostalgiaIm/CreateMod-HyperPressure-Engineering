@@ -1,0 +1,1422 @@
+{
+  "credit": "Made with Blockbench for HyperPressure Engineering",
+  "parent": "block/block",
+  "render_type": "minecraft:cutout",
+  "textures": {
+    "gunmetal": "hyperpressure:block/hand_cranked_plunger_pump_gunmetal",
+    "dark_metal": "hyperpressure:block/hand_cranked_plunger_pump_dark_metal",
+    "cobalt_casing": "hyperpressure:block/hand_cranked_plunger_pump_cobalt_casing",
+    "red_rubber": "hyperpressure:block/hand_cranked_plunger_pump_red_rubber",
+    "iron_ingot": "hyperpressure:block/hand_cranked_plunger_pump_iron_ingot",
+    "plunger_blue": "hyperpressure:block/hand_cranked_plunger_pump_plunger_blue",
+    "cyan_glow": "hyperpressure:block/hand_cranked_plunger_pump_cyan_glow",
+    "bolt": "hyperpressure:block/hand_cranked_plunger_pump_bolt",
+    "blue_glass": "hyperpressure:block/hand_cranked_plunger_pump_blue_glass",
+    "pressure_gauge": "hyperpressure:block/hand_cranked_plunger_pump_pressure_gauge",
+    "slot_glow": "hyperpressure:block/hand_cranked_plunger_pump_slot_glow",
+    "pipe_port": "hyperpressure:block/hand_cranked_plunger_pump_pipe_port",
+    "particle": "hyperpressure:block/hand_cranked_plunger_pump_gunmetal"
+  },
+  "elements": [
+    {
+      "name": "gunmetal weighted base",
+      "from": [
+        1,
+        0,
+        1
+      ],
+      "to": [
+        15,
+        3,
+        15
+      ],
+      "shade": true,
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            14,
+            3
+          ],
+          "texture": "#gunmetal"
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            14,
+            3
+          ],
+          "texture": "#gunmetal"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            14,
+            3
+          ],
+          "texture": "#gunmetal"
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            14,
+            3
+          ],
+          "texture": "#gunmetal"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            14,
+            14
+          ],
+          "texture": "#gunmetal"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            14,
+            14
+          ],
+          "texture": "#gunmetal"
+        }
+      }
+    },
+    {
+      "name": "recessed top plate",
+      "from": [
+        2,
+        3,
+        2
+      ],
+      "to": [
+        14,
+        4,
+        14
+      ],
+      "shade": true,
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            12,
+            1
+          ],
+          "texture": "#dark_metal"
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            12,
+            1
+          ],
+          "texture": "#dark_metal"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            12,
+            1
+          ],
+          "texture": "#dark_metal"
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            12,
+            1
+          ],
+          "texture": "#dark_metal"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            12,
+            12
+          ],
+          "texture": "#dark_metal"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            12,
+            12
+          ],
+          "texture": "#dark_metal"
+        }
+      }
+    },
+    {
+      "name": "front pressure gauge panel",
+      "from": [
+        4,
+        2.2,
+        0.1
+      ],
+      "to": [
+        12,
+        7.8,
+        0.8
+      ],
+      "shade": true,
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#pressure_gauge"
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            0.7000000000000001,
+            5.6
+          ],
+          "texture": "#gunmetal"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            8,
+            5.6
+          ],
+          "texture": "#gunmetal"
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            0.7000000000000001,
+            5.6
+          ],
+          "texture": "#gunmetal"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            8,
+            0.7000000000000001
+          ],
+          "texture": "#gunmetal"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            8,
+            0.7000000000000001
+          ],
+          "texture": "#gunmetal"
+        }
+      }
+    },
+    {
+      "name": "rear high pressure pipe neck",
+      "from": [
+        6,
+        1,
+        12.4
+      ],
+      "to": [
+        10,
+        5,
+        16
+      ],
+      "shade": true,
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            4,
+            4
+          ],
+          "texture": "#dark_metal"
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            3.5999999999999996,
+            4
+          ],
+          "texture": "#dark_metal"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#pipe_port"
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            3.5999999999999996,
+            4
+          ],
+          "texture": "#dark_metal"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            4,
+            3.5999999999999996
+          ],
+          "texture": "#dark_metal"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            4,
+            3.5999999999999996
+          ],
+          "texture": "#dark_metal"
+        }
+      }
+    },
+    {
+      "name": "rear pipe clamp",
+      "from": [
+        5,
+        2.1,
+        12
+      ],
+      "to": [
+        11,
+        4.9,
+        13.7
+      ],
+      "shade": true,
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            6,
+            2.8000000000000003
+          ],
+          "texture": "#gunmetal"
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            1.6999999999999993,
+            2.8000000000000003
+          ],
+          "texture": "#gunmetal"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            6,
+            2.8000000000000003
+          ],
+          "texture": "#gunmetal"
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            1.6999999999999993,
+            2.8000000000000003
+          ],
+          "texture": "#gunmetal"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            6,
+            1.6999999999999993
+          ],
+          "texture": "#gunmetal"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            6,
+            1.6999999999999993
+          ],
+          "texture": "#gunmetal"
+        }
+      }
+    },
+    {
+      "name": "exposed hex bolt",
+      "from": [
+        2,
+        3.9,
+        2
+      ],
+      "to": [
+        3.5,
+        4.7,
+        3.5
+      ],
+      "shade": true,
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            1.5,
+            0.8000000000000003
+          ],
+          "texture": "#bolt"
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            1.5,
+            0.8000000000000003
+          ],
+          "texture": "#bolt"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            1.5,
+            0.8000000000000003
+          ],
+          "texture": "#bolt"
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            1.5,
+            0.8000000000000003
+          ],
+          "texture": "#bolt"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#bolt"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            1.5,
+            1.5
+          ],
+          "texture": "#bolt"
+        }
+      }
+    },
+    {
+      "name": "exposed hex bolt",
+      "from": [
+        12.5,
+        3.9,
+        2
+      ],
+      "to": [
+        14,
+        4.7,
+        3.5
+      ],
+      "shade": true,
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            1.5,
+            0.8000000000000003
+          ],
+          "texture": "#bolt"
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            1.5,
+            0.8000000000000003
+          ],
+          "texture": "#bolt"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            1.5,
+            0.8000000000000003
+          ],
+          "texture": "#bolt"
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            1.5,
+            0.8000000000000003
+          ],
+          "texture": "#bolt"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#bolt"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            1.5,
+            1.5
+          ],
+          "texture": "#bolt"
+        }
+      }
+    },
+    {
+      "name": "exposed hex bolt",
+      "from": [
+        2,
+        3.9,
+        12.5
+      ],
+      "to": [
+        3.5,
+        4.7,
+        14
+      ],
+      "shade": true,
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            1.5,
+            0.8000000000000003
+          ],
+          "texture": "#bolt"
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            1.5,
+            0.8000000000000003
+          ],
+          "texture": "#bolt"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            1.5,
+            0.8000000000000003
+          ],
+          "texture": "#bolt"
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            1.5,
+            0.8000000000000003
+          ],
+          "texture": "#bolt"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#bolt"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            1.5,
+            1.5
+          ],
+          "texture": "#bolt"
+        }
+      }
+    },
+    {
+      "name": "exposed hex bolt",
+      "from": [
+        12.5,
+        3.9,
+        12.5
+      ],
+      "to": [
+        14,
+        4.7,
+        14
+      ],
+      "shade": true,
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            1.5,
+            0.8000000000000003
+          ],
+          "texture": "#bolt"
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            1.5,
+            0.8000000000000003
+          ],
+          "texture": "#bolt"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            1.5,
+            0.8000000000000003
+          ],
+          "texture": "#bolt"
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            1.5,
+            0.8000000000000003
+          ],
+          "texture": "#bolt"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#bolt"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            1.5,
+            1.5
+          ],
+          "texture": "#bolt"
+        }
+      }
+    },
+    {
+      "name": "deep cobalt pressure cylinder",
+      "from": [
+        4,
+        4.1,
+        3.5
+      ],
+      "to": [
+        12,
+        13,
+        12.5
+      ],
+      "shade": true,
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            8,
+            8.9
+          ],
+          "texture": "#cobalt_casing"
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            9,
+            8.9
+          ],
+          "texture": "#cobalt_casing"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            8,
+            8.9
+          ],
+          "texture": "#cobalt_casing"
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            9,
+            8.9
+          ],
+          "texture": "#cobalt_casing"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            8,
+            9
+          ],
+          "texture": "#cobalt_casing"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            8,
+            9
+          ],
+          "texture": "#cobalt_casing"
+        }
+      }
+    },
+    {
+      "name": "front cobalt machine face",
+      "from": [
+        4,
+        4.1,
+        2.9
+      ],
+      "to": [
+        12,
+        13,
+        4.05
+      ],
+      "shade": true,
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            8,
+            8.9
+          ],
+          "texture": "#cobalt_casing"
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            1.15,
+            8.9
+          ],
+          "texture": "#cobalt_casing"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            8,
+            8.9
+          ],
+          "texture": "#cobalt_casing"
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            1.15,
+            8.9
+          ],
+          "texture": "#cobalt_casing"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            8,
+            1.15
+          ],
+          "texture": "#cobalt_casing"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            8,
+            1.15
+          ],
+          "texture": "#cobalt_casing"
+        }
+      }
+    },
+    {
+      "name": "back cylinder face",
+      "from": [
+        4,
+        4.1,
+        12
+      ],
+      "to": [
+        12,
+        13,
+        13
+      ],
+      "shade": true,
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            8,
+            8.9
+          ],
+          "texture": "#cobalt_casing"
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            1,
+            8.9
+          ],
+          "texture": "#cobalt_casing"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            8,
+            8.9
+          ],
+          "texture": "#cobalt_casing"
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            1,
+            8.9
+          ],
+          "texture": "#cobalt_casing"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            8,
+            1
+          ],
+          "texture": "#cobalt_casing"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            8,
+            1
+          ],
+          "texture": "#cobalt_casing"
+        }
+      }
+    },
+    {
+      "name": "lower cylinder clamp",
+      "from": [
+        3.2,
+        3.7,
+        3.2
+      ],
+      "to": [
+        12.8,
+        4.8,
+        12.8
+      ],
+      "shade": true,
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            9.600000000000001,
+            1.0999999999999996
+          ],
+          "texture": "#gunmetal"
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            9.600000000000001,
+            1.0999999999999996
+          ],
+          "texture": "#gunmetal"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            9.600000000000001,
+            1.0999999999999996
+          ],
+          "texture": "#gunmetal"
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            9.600000000000001,
+            1.0999999999999996
+          ],
+          "texture": "#gunmetal"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            9.600000000000001,
+            9.600000000000001
+          ],
+          "texture": "#gunmetal"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            9.600000000000001,
+            9.600000000000001
+          ],
+          "texture": "#gunmetal"
+        }
+      }
+    },
+    {
+      "name": "upper cylinder clamp",
+      "from": [
+        3.2,
+        12.4,
+        3.2
+      ],
+      "to": [
+        12.8,
+        13.5,
+        12.8
+      ],
+      "shade": true,
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            9.600000000000001,
+            1.0999999999999996
+          ],
+          "texture": "#gunmetal"
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            9.600000000000001,
+            1.0999999999999996
+          ],
+          "texture": "#gunmetal"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            9.600000000000001,
+            1.0999999999999996
+          ],
+          "texture": "#gunmetal"
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            9.600000000000001,
+            1.0999999999999996
+          ],
+          "texture": "#gunmetal"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            9.600000000000001,
+            9.600000000000001
+          ],
+          "texture": "#gunmetal"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            9.600000000000001,
+            9.600000000000001
+          ],
+          "texture": "#gunmetal"
+        }
+      }
+    },
+    {
+      "name": "left vertical reinforcement rib",
+      "from": [
+        3.4,
+        4.5,
+        3
+      ],
+      "to": [
+        4.5,
+        12.6,
+        4.1
+      ],
+      "shade": true,
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            1.1,
+            8.1
+          ],
+          "texture": "#gunmetal"
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            1.0999999999999996,
+            8.1
+          ],
+          "texture": "#gunmetal"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            1.1,
+            8.1
+          ],
+          "texture": "#gunmetal"
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            1.0999999999999996,
+            8.1
+          ],
+          "texture": "#gunmetal"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            1.1,
+            1.0999999999999996
+          ],
+          "texture": "#gunmetal"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            1.1,
+            1.0999999999999996
+          ],
+          "texture": "#gunmetal"
+        }
+      }
+    },
+    {
+      "name": "right vertical reinforcement rib",
+      "from": [
+        11.5,
+        4.5,
+        3
+      ],
+      "to": [
+        12.6,
+        12.6,
+        4.1
+      ],
+      "shade": true,
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            1.0999999999999996,
+            8.1
+          ],
+          "texture": "#gunmetal"
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            1.0999999999999996,
+            8.1
+          ],
+          "texture": "#gunmetal"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            1.0999999999999996,
+            8.1
+          ],
+          "texture": "#gunmetal"
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            1.0999999999999996,
+            8.1
+          ],
+          "texture": "#gunmetal"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            1.0999999999999996,
+            1.0999999999999996
+          ],
+          "texture": "#gunmetal"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            1.0999999999999996,
+            1.0999999999999996
+          ],
+          "texture": "#gunmetal"
+        }
+      }
+    },
+    {
+      "name": "front round glass sight window",
+      "from": [
+        6,
+        7,
+        0.15
+      ],
+      "to": [
+        10,
+        11,
+        0.42
+      ],
+      "shade": true,
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#blue_glass"
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            0.27,
+            4
+          ],
+          "texture": "#blue_glass"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            4,
+            4
+          ],
+          "texture": "#blue_glass"
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            0.27,
+            4
+          ],
+          "texture": "#blue_glass"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            4,
+            0.27
+          ],
+          "texture": "#blue_glass"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            4,
+            0.27
+          ],
+          "texture": "#blue_glass"
+        }
+      }
+    },
+    {
+      "name": "east axle hub",
+      "from": [
+        12,
+        8,
+        6
+      ],
+      "to": [
+        16,
+        10,
+        10
+      ],
+      "shade": true,
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            4,
+            2
+          ],
+          "texture": "#gunmetal"
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#pipe_port"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            4,
+            2
+          ],
+          "texture": "#gunmetal"
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            4,
+            2
+          ],
+          "texture": "#gunmetal"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            4,
+            4
+          ],
+          "texture": "#gunmetal"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            4,
+            4
+          ],
+          "texture": "#gunmetal"
+        }
+      }
+    },
+    {
+      "name": "east ingot feed neck",
+      "from": [
+        11.6,
+        6,
+        6
+      ],
+      "to": [
+        14,
+        8.4,
+        10
+      ],
+      "shade": true,
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            2.4000000000000004,
+            2.4000000000000004
+          ],
+          "texture": "#gunmetal"
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            4,
+            2.4000000000000004
+          ],
+          "texture": "#gunmetal"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            2.4000000000000004,
+            2.4000000000000004
+          ],
+          "texture": "#gunmetal"
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            4,
+            2.4000000000000004
+          ],
+          "texture": "#gunmetal"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            2.4000000000000004,
+            4
+          ],
+          "texture": "#gunmetal"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            2.4000000000000004,
+            4
+          ],
+          "texture": "#gunmetal"
+        }
+      }
+    },
+    {
+      "name": "east funnel mouth",
+      "from": [
+        13.6,
+        5.2,
+        5
+      ],
+      "to": [
+        16,
+        9.2,
+        11
+      ],
+      "shade": true,
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            2.4000000000000004,
+            3.999999999999999
+          ],
+          "texture": "#dark_metal"
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#slot_glow"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            2.4000000000000004,
+            3.999999999999999
+          ],
+          "texture": "#dark_metal"
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            6,
+            3.999999999999999
+          ],
+          "texture": "#dark_metal"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            2.4000000000000004,
+            6
+          ],
+          "texture": "#dark_metal"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            2.4000000000000004,
+            6
+          ],
+          "texture": "#dark_metal"
+        }
+      }
+    }
+  ]
+}

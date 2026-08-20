@@ -1,0 +1,2624 @@
+{
+  "credit": "Pressure Goggles concept model for HyperPressure Engineering, generated for Blockbench",
+  "parent": "block/block",
+  "render_type": "minecraft:translucent",
+  "textures": {
+    "cobalt_frame": "hyperpressure:item/pressure_goggles/cobalt_frame",
+    "gunmetal": "hyperpressure:item/pressure_goggles/gunmetal",
+    "dark_rubber": "hyperpressure:item/pressure_goggles/dark_rubber",
+    "cyan_lens": "hyperpressure:item/pressure_goggles/cyan_lens",
+    "hud_grid": "hyperpressure:item/pressure_goggles/hud_grid",
+    "bolt": "hyperpressure:item/pressure_goggles/bolt",
+    "pressure_badge": "hyperpressure:item/pressure_goggles/pressure_badge",
+    "led_blue": "hyperpressure:item/pressure_goggles/led_blue",
+    "stripe_logo": "hyperpressure:item/pressure_goggles/stripe_logo",
+    "module_dark": "hyperpressure:item/pressure_goggles/module_dark",
+    "sensor_red": "hyperpressure:item/pressure_goggles/sensor_red",
+    "antenna_disc": "hyperpressure:item/pressure_goggles/antenna_disc",
+    "warning_glow": "hyperpressure:item/pressure_goggles/warning_glow",
+    "overload_red_lens": "hyperpressure:item/pressure_goggles/overload_red_lens",
+    "particle": "hyperpressure:item/pressure_goggles/cobalt_frame"
+  },
+  "elements": [
+    {
+      "name": "upper deep cobalt brow frame",
+      "from": [
+        2.1,
+        9.25,
+        2.25
+      ],
+      "to": [
+        13.9,
+        10.85,
+        5.25
+      ],
+      "shade": true,
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            11.8,
+            1.5999999999999996
+          ],
+          "texture": "#cobalt_frame"
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            3,
+            1.5999999999999996
+          ],
+          "texture": "#cobalt_frame"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            11.8,
+            1.5999999999999996
+          ],
+          "texture": "#cobalt_frame"
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            3,
+            1.5999999999999996
+          ],
+          "texture": "#cobalt_frame"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            11.8,
+            3
+          ],
+          "texture": "#cobalt_frame"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            11.8,
+            3
+          ],
+          "texture": "#cobalt_frame"
+        }
+      }
+    },
+    {
+      "name": "lower deep cobalt cheek frame",
+      "from": [
+        2.1,
+        5.15,
+        2.25
+      ],
+      "to": [
+        13.9,
+        6.75,
+        5.25
+      ],
+      "shade": true,
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            11.8,
+            1.5999999999999996
+          ],
+          "texture": "#cobalt_frame"
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            3,
+            1.5999999999999996
+          ],
+          "texture": "#cobalt_frame"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            11.8,
+            1.5999999999999996
+          ],
+          "texture": "#cobalt_frame"
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            3,
+            1.5999999999999996
+          ],
+          "texture": "#cobalt_frame"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            11.8,
+            3
+          ],
+          "texture": "#cobalt_frame"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            11.8,
+            3
+          ],
+          "texture": "#cobalt_frame"
+        }
+      }
+    },
+    {
+      "name": "left outer vertical frame",
+      "from": [
+        1.55,
+        5.6,
+        2.2
+      ],
+      "to": [
+        3.25,
+        10.4,
+        5.3
+      ],
+      "shade": true,
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            1.7,
+            4.800000000000001
+          ],
+          "texture": "#cobalt_frame"
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            3.0999999999999996,
+            4.800000000000001
+          ],
+          "texture": "#cobalt_frame"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            1.7,
+            4.800000000000001
+          ],
+          "texture": "#cobalt_frame"
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            3.0999999999999996,
+            4.800000000000001
+          ],
+          "texture": "#cobalt_frame"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            1.7,
+            3.0999999999999996
+          ],
+          "texture": "#cobalt_frame"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            1.7,
+            3.0999999999999996
+          ],
+          "texture": "#cobalt_frame"
+        }
+      }
+    },
+    {
+      "name": "right outer vertical frame",
+      "from": [
+        12.75,
+        5.6,
+        2.2
+      ],
+      "to": [
+        14.45,
+        10.4,
+        5.3
+      ],
+      "shade": true,
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            1.6999999999999993,
+            4.800000000000001
+          ],
+          "texture": "#cobalt_frame"
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            3.0999999999999996,
+            4.800000000000001
+          ],
+          "texture": "#cobalt_frame"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            1.6999999999999993,
+            4.800000000000001
+          ],
+          "texture": "#cobalt_frame"
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            3.0999999999999996,
+            4.800000000000001
+          ],
+          "texture": "#cobalt_frame"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            1.6999999999999993,
+            3.0999999999999996
+          ],
+          "texture": "#cobalt_frame"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            1.6999999999999993,
+            3.0999999999999996
+          ],
+          "texture": "#cobalt_frame"
+        }
+      }
+    },
+    {
+      "name": "center reinforced bridge",
+      "from": [
+        7.1,
+        5.75,
+        2
+      ],
+      "to": [
+        8.9,
+        10.15,
+        5.55
+      ],
+      "shade": true,
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            1.8000000000000007,
+            4.4
+          ],
+          "texture": "#cobalt_frame"
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            3.55,
+            4.4
+          ],
+          "texture": "#cobalt_frame"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            1.8000000000000007,
+            4.4
+          ],
+          "texture": "#cobalt_frame"
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            3.55,
+            4.4
+          ],
+          "texture": "#cobalt_frame"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            1.8000000000000007,
+            3.55
+          ],
+          "texture": "#cobalt_frame"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            1.8000000000000007,
+            3.55
+          ],
+          "texture": "#cobalt_frame"
+        }
+      }
+    },
+    {
+      "name": "left electric cyan lens",
+      "from": [
+        3.25,
+        6.45,
+        1.95
+      ],
+      "to": [
+        7.15,
+        9.35,
+        2.2
+      ],
+      "shade": false,
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#cyan_lens"
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            0.2500000000000002,
+            2.8999999999999995
+          ],
+          "texture": "#cyan_lens"
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            0.2500000000000002,
+            2.8999999999999995
+          ],
+          "texture": "#cyan_lens"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            3.9000000000000004,
+            0.2500000000000002
+          ],
+          "texture": "#cyan_lens"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            3.9000000000000004,
+            0.2500000000000002
+          ],
+          "texture": "#cyan_lens"
+        }
+      }
+    },
+    {
+      "name": "right electric cyan lens",
+      "from": [
+        8.85,
+        6.45,
+        1.95
+      ],
+      "to": [
+        12.75,
+        9.35,
+        2.2
+      ],
+      "shade": false,
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#cyan_lens"
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            0.2500000000000002,
+            2.8999999999999995
+          ],
+          "texture": "#cyan_lens"
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            0.2500000000000002,
+            2.8999999999999995
+          ],
+          "texture": "#cyan_lens"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            3.9000000000000004,
+            0.2500000000000002
+          ],
+          "texture": "#cyan_lens"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            3.9000000000000004,
+            0.2500000000000002
+          ],
+          "texture": "#cyan_lens"
+        }
+      }
+    },
+    {
+      "name": "recessed hex socket bolt",
+      "from": [
+        2,
+        9.75,
+        1.75
+      ],
+      "to": [
+        3.05,
+        10.7,
+        2.05
+      ],
+      "shade": true,
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#bolt"
+        }
+      }
+    },
+    {
+      "name": "recessed hex socket bolt",
+      "from": [
+        12.45,
+        9.75,
+        1.75
+      ],
+      "to": [
+        3.4499999999999997,
+        10.7,
+        2.05
+      ],
+      "shade": true,
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#bolt"
+        }
+      }
+    },
+    {
+      "name": "recessed hex socket bolt",
+      "from": [
+        2,
+        5.25,
+        1.75
+      ],
+      "to": [
+        3.05,
+        6.2,
+        2.05
+      ],
+      "shade": true,
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#bolt"
+        }
+      }
+    },
+    {
+      "name": "recessed hex socket bolt",
+      "from": [
+        12.45,
+        5.25,
+        1.75
+      ],
+      "to": [
+        3.4499999999999997,
+        6.2,
+        2.05
+      ],
+      "shade": true,
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#bolt"
+        }
+      }
+    },
+    {
+      "name": "central micro pressure gauge badge",
+      "from": [
+        6.6,
+        4.55,
+        1.55
+      ],
+      "to": [
+        9.4,
+        7,
+        1.86
+      ],
+      "shade": false,
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#pressure_badge"
+        }
+      }
+    },
+    {
+      "name": "left gunmetal hinge block",
+      "from": [
+        0.55,
+        6.25,
+        3.25
+      ],
+      "to": [
+        2.05,
+        9.75,
+        5.4
+      ],
+      "shade": true,
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            1.4999999999999998,
+            3.5
+          ],
+          "texture": "#gunmetal"
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            2.1500000000000004,
+            3.5
+          ],
+          "texture": "#gunmetal"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            1.4999999999999998,
+            3.5
+          ],
+          "texture": "#gunmetal"
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            2.1500000000000004,
+            3.5
+          ],
+          "texture": "#gunmetal"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            1.4999999999999998,
+            2.1500000000000004
+          ],
+          "texture": "#gunmetal"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            1.4999999999999998,
+            2.1500000000000004
+          ],
+          "texture": "#gunmetal"
+        }
+      }
+    },
+    {
+      "name": "right gunmetal hinge block",
+      "from": [
+        13.95,
+        6.25,
+        3.25
+      ],
+      "to": [
+        15.45,
+        9.75,
+        5.4
+      ],
+      "shade": true,
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            1.5,
+            3.5
+          ],
+          "texture": "#gunmetal"
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            2.1500000000000004,
+            3.5
+          ],
+          "texture": "#gunmetal"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            1.5,
+            3.5
+          ],
+          "texture": "#gunmetal"
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            2.1500000000000004,
+            3.5
+          ],
+          "texture": "#gunmetal"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            1.5,
+            2.1500000000000004
+          ],
+          "texture": "#gunmetal"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            1.5,
+            2.1500000000000004
+          ],
+          "texture": "#gunmetal"
+        }
+      }
+    },
+    {
+      "name": "left thick metal temple",
+      "from": [
+        0.4,
+        6.65,
+        5.15
+      ],
+      "to": [
+        1.75,
+        9.2,
+        12.65
+      ],
+      "shade": true,
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            1.35,
+            2.549999999999999
+          ],
+          "texture": "#gunmetal"
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            7.5,
+            2.549999999999999
+          ],
+          "texture": "#gunmetal"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            1.35,
+            2.549999999999999
+          ],
+          "texture": "#gunmetal"
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            7.5,
+            2.549999999999999
+          ],
+          "texture": "#gunmetal"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            1.35,
+            7.5
+          ],
+          "texture": "#gunmetal"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            1.35,
+            7.5
+          ],
+          "texture": "#gunmetal"
+        }
+      }
+    },
+    {
+      "name": "right thick metal temple",
+      "from": [
+        14.25,
+        6.65,
+        5.15
+      ],
+      "to": [
+        15.6,
+        9.2,
+        12.65
+      ],
+      "shade": true,
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            1.3499999999999996,
+            2.549999999999999
+          ],
+          "texture": "#gunmetal"
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            7.5,
+            2.549999999999999
+          ],
+          "texture": "#gunmetal"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            1.3499999999999996,
+            2.549999999999999
+          ],
+          "texture": "#gunmetal"
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            7.5,
+            2.549999999999999
+          ],
+          "texture": "#gunmetal"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            1.3499999999999996,
+            7.5
+          ],
+          "texture": "#gunmetal"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            1.3499999999999996,
+            7.5
+          ],
+          "texture": "#gunmetal"
+        }
+      }
+    },
+    {
+      "name": "left anti slip rubber sleeve",
+      "from": [
+        0.25,
+        6.35,
+        11.9
+      ],
+      "to": [
+        1.9,
+        9.35,
+        14.6
+      ],
+      "shade": true,
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            1.65,
+            3
+          ],
+          "texture": "#dark_rubber"
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            2.6999999999999993,
+            3
+          ],
+          "texture": "#dark_rubber"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            1.65,
+            3
+          ],
+          "texture": "#dark_rubber"
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            2.6999999999999993,
+            3
+          ],
+          "texture": "#dark_rubber"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            1.65,
+            2.6999999999999993
+          ],
+          "texture": "#dark_rubber"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            1.65,
+            2.6999999999999993
+          ],
+          "texture": "#dark_rubber"
+        }
+      }
+    },
+    {
+      "name": "right anti slip rubber sleeve",
+      "from": [
+        14.1,
+        6.35,
+        11.9
+      ],
+      "to": [
+        15.75,
+        9.35,
+        14.6
+      ],
+      "shade": true,
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            1.6500000000000004,
+            3
+          ],
+          "texture": "#dark_rubber"
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            2.6999999999999993,
+            3
+          ],
+          "texture": "#dark_rubber"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            1.6500000000000004,
+            3
+          ],
+          "texture": "#dark_rubber"
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            2.6999999999999993,
+            3
+          ],
+          "texture": "#dark_rubber"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            1.6500000000000004,
+            2.6999999999999993
+          ],
+          "texture": "#dark_rubber"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            1.6500000000000004,
+            2.6999999999999993
+          ],
+          "texture": "#dark_rubber"
+        }
+      }
+    },
+    {
+      "name": "rear wide elastic headband",
+      "from": [
+        2.6,
+        5.95,
+        12.55
+      ],
+      "to": [
+        13.4,
+        9.95,
+        14.75
+      ],
+      "shade": true,
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#stripe_logo"
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            2.1999999999999993,
+            3.999999999999999
+          ],
+          "texture": "#stripe_logo"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#stripe_logo"
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            2.1999999999999993,
+            3.999999999999999
+          ],
+          "texture": "#stripe_logo"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            10.8,
+            2.1999999999999993
+          ],
+          "texture": "#stripe_logo"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            10.8,
+            2.1999999999999993
+          ],
+          "texture": "#stripe_logo"
+        }
+      }
+    },
+    {
+      "name": "upper blue stitched band stripe",
+      "from": [
+        2.9,
+        9.75,
+        12.2
+      ],
+      "to": [
+        13.1,
+        10.22,
+        14.95
+      ],
+      "shade": false,
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            10.2,
+            0.47000000000000064
+          ],
+          "texture": "#cyan_lens"
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            2.75,
+            0.47000000000000064
+          ],
+          "texture": "#cyan_lens"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            10.2,
+            0.47000000000000064
+          ],
+          "texture": "#cyan_lens"
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            2.75,
+            0.47000000000000064
+          ],
+          "texture": "#cyan_lens"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            10.2,
+            2.75
+          ],
+          "texture": "#cyan_lens"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            10.2,
+            2.75
+          ],
+          "texture": "#cyan_lens"
+        }
+      }
+    },
+    {
+      "name": "lower blue stitched band stripe",
+      "from": [
+        2.9,
+        5.68,
+        12.2
+      ],
+      "to": [
+        13.1,
+        6.15,
+        14.95
+      ],
+      "shade": false,
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            10.2,
+            0.47000000000000064
+          ],
+          "texture": "#cyan_lens"
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            2.75,
+            0.47000000000000064
+          ],
+          "texture": "#cyan_lens"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            10.2,
+            0.47000000000000064
+          ],
+          "texture": "#cyan_lens"
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            2.75,
+            0.47000000000000064
+          ],
+          "texture": "#cyan_lens"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            10.2,
+            2.75
+          ],
+          "texture": "#cyan_lens"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            10.2,
+            2.75
+          ],
+          "texture": "#cyan_lens"
+        }
+      }
+    },
+    {
+      "name": "left HUD grid overlay",
+      "from": [
+        3.35,
+        6.55,
+        1.82
+      ],
+      "to": [
+        7.05,
+        9.25,
+        1.86
+      ],
+      "shade": false,
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#hud_grid"
+        }
+      }
+    },
+    {
+      "name": "right HUD grid overlay",
+      "from": [
+        8.95,
+        6.55,
+        1.82
+      ],
+      "to": [
+        12.65,
+        9.25,
+        1.86
+      ],
+      "shade": false,
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#hud_grid"
+        }
+      }
+    },
+    {
+      "name": "attachment 1 left root glowing LED socket",
+      "from": [
+        0.05,
+        7.1,
+        4.65
+      ],
+      "to": [
+        1.05,
+        8.65,
+        5.85
+      ],
+      "shade": false,
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#led_blue"
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            1.1999999999999993,
+            1.5500000000000007
+          ],
+          "texture": "#led_blue"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            1,
+            1.5500000000000007
+          ],
+          "texture": "#led_blue"
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#led_blue"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            1,
+            1.1999999999999993
+          ],
+          "texture": "#led_blue"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            1,
+            1.1999999999999993
+          ],
+          "texture": "#led_blue"
+        }
+      }
+    },
+    {
+      "name": "attachment 1 breathing light halo plate",
+      "from": [
+        0,
+        6.75,
+        4.3
+      ],
+      "to": [
+        0.28,
+        9,
+        6.2
+      ],
+      "shade": false,
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            0.28,
+            2.25
+          ],
+          "texture": "#cyan_lens"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            0.28,
+            2.25
+          ],
+          "texture": "#cyan_lens"
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            1.9000000000000004,
+            2.25
+          ],
+          "texture": "#cyan_lens"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            0.28,
+            1.9000000000000004
+          ],
+          "texture": "#cyan_lens"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            0.28,
+            1.9000000000000004
+          ],
+          "texture": "#cyan_lens"
+        }
+      }
+    },
+    {
+      "name": "attachment 2 left headband signal puck",
+      "from": [
+        1.35,
+        8.55,
+        12.65
+      ],
+      "to": [
+        3.45,
+        10.85,
+        14.95
+      ],
+      "shade": true,
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            2.1,
+            2.299999999999999
+          ],
+          "texture": "#antenna_disc"
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            2.299999999999999,
+            2.299999999999999
+          ],
+          "texture": "#antenna_disc"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            2.1,
+            2.299999999999999
+          ],
+          "texture": "#antenna_disc"
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#antenna_disc"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#antenna_disc"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            2.1,
+            2.299999999999999
+          ],
+          "texture": "#antenna_disc"
+        }
+      }
+    },
+    {
+      "name": "attachment 2 short angled antenna mast",
+      "from": [
+        1.75,
+        10.45,
+        13.35
+      ],
+      "to": [
+        2.35,
+        13.95,
+        13.95
+      ],
+      "rotation": {
+        "angle": -22.5,
+        "axis": "z",
+        "origin": [
+          2,
+          10.45,
+          13.65
+        ]
+      },
+      "shade": true,
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            0.6000000000000001,
+            3.5
+          ],
+          "texture": "#gunmetal"
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            0.5999999999999996,
+            3.5
+          ],
+          "texture": "#gunmetal"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            0.6000000000000001,
+            3.5
+          ],
+          "texture": "#gunmetal"
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            0.5999999999999996,
+            3.5
+          ],
+          "texture": "#gunmetal"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            0.6000000000000001,
+            0.5999999999999996
+          ],
+          "texture": "#gunmetal"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            0.6000000000000001,
+            0.5999999999999996
+          ],
+          "texture": "#gunmetal"
+        }
+      }
+    },
+    {
+      "name": "attachment 2 cyan antenna tip",
+      "from": [
+        1.35,
+        13.45,
+        13.15
+      ],
+      "to": [
+        2.35,
+        14.45,
+        14.15
+      ],
+      "rotation": {
+        "angle": -22.5,
+        "axis": "z",
+        "origin": [
+          2,
+          10.45,
+          13.65
+        ]
+      },
+      "shade": false,
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            1,
+            1
+          ],
+          "texture": "#cyan_lens"
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            1,
+            1
+          ],
+          "texture": "#cyan_lens"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            1,
+            1
+          ],
+          "texture": "#cyan_lens"
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            1,
+            1
+          ],
+          "texture": "#cyan_lens"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            1,
+            1
+          ],
+          "texture": "#cyan_lens"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            1,
+            1
+          ],
+          "texture": "#cyan_lens"
+        }
+      }
+    },
+    {
+      "name": "attachment 2 extra blue band stripe",
+      "from": [
+        3,
+        7.75,
+        12.1
+      ],
+      "to": [
+        13,
+        8.18,
+        15.05
+      ],
+      "shade": false,
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            10,
+            0.4299999999999997
+          ],
+          "texture": "#cyan_lens"
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            2.950000000000001,
+            0.4299999999999997
+          ],
+          "texture": "#cyan_lens"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            10,
+            0.4299999999999997
+          ],
+          "texture": "#cyan_lens"
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            2.950000000000001,
+            0.4299999999999997
+          ],
+          "texture": "#cyan_lens"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            10,
+            2.950000000000001
+          ],
+          "texture": "#cyan_lens"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            10,
+            2.950000000000001
+          ],
+          "texture": "#cyan_lens"
+        }
+      }
+    },
+    {
+      "name": "attachment 3 right temple data module body",
+      "from": [
+        14,
+        6,
+        7.15
+      ],
+      "to": [
+        16.1,
+        9.8,
+        10.95
+      ],
+      "shade": true,
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            2.1000000000000014,
+            3.8000000000000007
+          ],
+          "texture": "#module_dark"
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            3.799999999999999,
+            3.8000000000000007
+          ],
+          "texture": "#module_dark"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            2.1000000000000014,
+            3.8000000000000007
+          ],
+          "texture": "#module_dark"
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            3.799999999999999,
+            3.8000000000000007
+          ],
+          "texture": "#module_dark"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            2.1000000000000014,
+            3.799999999999999
+          ],
+          "texture": "#module_dark"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            2.1000000000000014,
+            3.799999999999999
+          ],
+          "texture": "#module_dark"
+        }
+      }
+    },
+    {
+      "name": "attachment 3 data module cyan status slit",
+      "from": [
+        15.82,
+        6.55,
+        8.05
+      ],
+      "to": [
+        16.18,
+        7.15,
+        10.05
+      ],
+      "shade": false,
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            0.35999999999999943,
+            0.6000000000000005
+          ],
+          "texture": "#cyan_lens"
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            2,
+            0.6000000000000005
+          ],
+          "texture": "#cyan_lens"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            0.35999999999999943,
+            0.6000000000000005
+          ],
+          "texture": "#cyan_lens"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            0.35999999999999943,
+            2
+          ],
+          "texture": "#cyan_lens"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            0.35999999999999943,
+            2
+          ],
+          "texture": "#cyan_lens"
+        }
+      }
+    },
+    {
+      "name": "attachment 3 module screw cap top",
+      "from": [
+        14.4,
+        9.6,
+        7.75
+      ],
+      "to": [
+        15.7,
+        10.15,
+        8.95
+      ],
+      "shade": true,
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            1.299999999999999,
+            0.5500000000000007
+          ],
+          "texture": "#bolt"
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            1.1999999999999993,
+            0.5500000000000007
+          ],
+          "texture": "#bolt"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            1.299999999999999,
+            0.5500000000000007
+          ],
+          "texture": "#bolt"
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            1.1999999999999993,
+            0.5500000000000007
+          ],
+          "texture": "#bolt"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#bolt"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            1.299999999999999,
+            1.1999999999999993
+          ],
+          "texture": "#bolt"
+        }
+      }
+    },
+    {
+      "name": "attachment 3 denser left HUD scanlines",
+      "from": [
+        3.25,
+        7.75,
+        1.65
+      ],
+      "to": [
+        7.15,
+        7.95,
+        1.75
+      ],
+      "shade": false,
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            3.9000000000000004,
+            0.20000000000000018
+          ],
+          "texture": "#cyan_lens"
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            0.10000000000000009,
+            0.20000000000000018
+          ],
+          "texture": "#cyan_lens"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            3.9000000000000004,
+            0.20000000000000018
+          ],
+          "texture": "#cyan_lens"
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            0.10000000000000009,
+            0.20000000000000018
+          ],
+          "texture": "#cyan_lens"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            3.9000000000000004,
+            0.10000000000000009
+          ],
+          "texture": "#cyan_lens"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            3.9000000000000004,
+            0.10000000000000009
+          ],
+          "texture": "#cyan_lens"
+        }
+      }
+    },
+    {
+      "name": "attachment 3 denser right HUD scanlines",
+      "from": [
+        8.85,
+        7.75,
+        1.65
+      ],
+      "to": [
+        12.75,
+        7.95,
+        1.75
+      ],
+      "shade": false,
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            3.9000000000000004,
+            0.20000000000000018
+          ],
+          "texture": "#cyan_lens"
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            0.10000000000000009,
+            0.20000000000000018
+          ],
+          "texture": "#cyan_lens"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            3.9000000000000004,
+            0.20000000000000018
+          ],
+          "texture": "#cyan_lens"
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            0.10000000000000009,
+            0.20000000000000018
+          ],
+          "texture": "#cyan_lens"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            3.9000000000000004,
+            0.10000000000000009
+          ],
+          "texture": "#cyan_lens"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            3.9000000000000004,
+            0.10000000000000009
+          ],
+          "texture": "#cyan_lens"
+        }
+      }
+    },
+    {
+      "name": "attachment 4 right headband sensor base",
+      "from": [
+        12.85,
+        8.55,
+        12.7
+      ],
+      "to": [
+        15.4,
+        10.7,
+        14.8
+      ],
+      "shade": true,
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            2.5500000000000007,
+            2.1499999999999986
+          ],
+          "texture": "#sensor_red"
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#sensor_red"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            2.5500000000000007,
+            2.1499999999999986
+          ],
+          "texture": "#sensor_red"
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            2.1000000000000014,
+            2.1499999999999986
+          ],
+          "texture": "#sensor_red"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#sensor_red"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            2.5500000000000007,
+            2.1000000000000014
+          ],
+          "texture": "#sensor_red"
+        }
+      }
+    },
+    {
+      "name": "attachment 4 raised external sensor bump",
+      "from": [
+        13.05,
+        10.45,
+        12.25
+      ],
+      "to": [
+        13.8,
+        11.45,
+        13
+      ],
+      "shade": false,
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            0.75,
+            1
+          ],
+          "texture": "#sensor_red"
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            0.75,
+            1
+          ],
+          "texture": "#sensor_red"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            0.75,
+            1
+          ],
+          "texture": "#sensor_red"
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            0.75,
+            1
+          ],
+          "texture": "#sensor_red"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#sensor_red"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            0.75,
+            0.75
+          ],
+          "texture": "#sensor_red"
+        }
+      }
+    },
+    {
+      "name": "attachment 4 raised external sensor bump",
+      "from": [
+        14.15,
+        10.45,
+        12.35
+      ],
+      "to": [
+        14.9,
+        11.45,
+        13.1
+      ],
+      "shade": false,
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            0.75,
+            1
+          ],
+          "texture": "#sensor_red"
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            0.75,
+            1
+          ],
+          "texture": "#sensor_red"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            0.75,
+            1
+          ],
+          "texture": "#sensor_red"
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            0.75,
+            1
+          ],
+          "texture": "#sensor_red"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#sensor_red"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            0.75,
+            0.75
+          ],
+          "texture": "#sensor_red"
+        }
+      }
+    },
+    {
+      "name": "attachment 4 raised external sensor bump",
+      "from": [
+        13.6,
+        10.45,
+        14.1
+      ],
+      "to": [
+        14.35,
+        11.45,
+        14.85
+      ],
+      "shade": false,
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            0.75,
+            1
+          ],
+          "texture": "#sensor_red"
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            0.75,
+            1
+          ],
+          "texture": "#sensor_red"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            0.75,
+            1
+          ],
+          "texture": "#sensor_red"
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            0.75,
+            1
+          ],
+          "texture": "#sensor_red"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#sensor_red"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            0.75,
+            0.75
+          ],
+          "texture": "#sensor_red"
+        }
+      }
+    },
+    {
+      "name": "attachment 4 subtle cyan frame glow top",
+      "from": [
+        1.7,
+        10.85,
+        1.65
+      ],
+      "to": [
+        14.3,
+        11.15,
+        5.8
+      ],
+      "shade": false,
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            12.600000000000001,
+            0.3000000000000007
+          ],
+          "texture": "#cyan_lens"
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            4.15,
+            0.3000000000000007
+          ],
+          "texture": "#cyan_lens"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            12.600000000000001,
+            0.3000000000000007
+          ],
+          "texture": "#cyan_lens"
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            4.15,
+            0.3000000000000007
+          ],
+          "texture": "#cyan_lens"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            12.600000000000001,
+            4.15
+          ],
+          "texture": "#cyan_lens"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            12.600000000000001,
+            4.15
+          ],
+          "texture": "#cyan_lens"
+        }
+      }
+    },
+    {
+      "name": "attachment 4 subtle cyan frame glow bottom",
+      "from": [
+        1.7,
+        4.85,
+        1.65
+      ],
+      "to": [
+        14.3,
+        5.15,
+        5.8
+      ],
+      "shade": false,
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            12.600000000000001,
+            0.3000000000000007
+          ],
+          "texture": "#cyan_lens"
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            4.15,
+            0.3000000000000007
+          ],
+          "texture": "#cyan_lens"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            12.600000000000001,
+            0.3000000000000007
+          ],
+          "texture": "#cyan_lens"
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            4.15,
+            0.3000000000000007
+          ],
+          "texture": "#cyan_lens"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            12.600000000000001,
+            4.15
+          ],
+          "texture": "#cyan_lens"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            12.600000000000001,
+            4.15
+          ],
+          "texture": "#cyan_lens"
+        }
+      }
+    }
+  ],
+  "display": {
+    "thirdperson_righthand": {
+      "rotation": [
+        75,
+        45,
+        0
+      ],
+      "translation": [
+        0,
+        2.5,
+        1.5
+      ],
+      "scale": [
+        0.42,
+        0.42,
+        0.42
+      ]
+    },
+    "thirdperson_lefthand": {
+      "rotation": [
+        75,
+        45,
+        0
+      ],
+      "translation": [
+        0,
+        2.5,
+        1.5
+      ],
+      "scale": [
+        0.42,
+        0.42,
+        0.42
+      ]
+    },
+    "firstperson_righthand": {
+      "rotation": [
+        0,
+        45,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.42,
+        0.42,
+        0.42
+      ]
+    },
+    "firstperson_lefthand": {
+      "rotation": [
+        0,
+        225,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.42,
+        0.42,
+        0.42
+      ]
+    },
+    "ground": {
+      "translation": [
+        0,
+        2,
+        0
+      ],
+      "scale": [
+        0.5,
+        0.5,
+        0.5
+      ]
+    },
+    "gui": {
+      "rotation": [
+        22,
+        -180,
+        0
+      ],
+      "translation": [
+        0,
+        2.25,
+        0
+      ],
+      "scale": [
+        1.32,
+        1.32,
+        1.32
+      ]
+    },
+    "head": {
+      "rotation": [
+        0,
+        180,
+        0
+      ],
+      "translation": [
+        0,
+        5.6,
+        0
+      ],
+      "scale": [
+        1.72,
+        1.72,
+        1.72
+      ]
+    },
+    "fixed": {
+      "rotation": [
+        0,
+        180,
+        0
+      ],
+      "translation": [
+        0,
+        1.5,
+        2.5
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    }
+  }
+}

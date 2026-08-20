@@ -1,0 +1,8 @@
+{
+  "values": [
+    "hyperpressure:high_pressure_alloy",
+    "hyperpressure:reinforced_high_pressure_alloy",
+    "hyperpressure:resonant_alloy",
+    "hyperpressure:ultra_pressure_alloy"
+  ]
+}

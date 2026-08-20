@@ -1,0 +1,92 @@
+{
+  "credit": "Made with Blockbench for HyperPressure Engineering",
+  "parent": "block/block",
+  "render_type": "minecraft:cutout",
+  "textures": {
+    "gunmetal": "hyperpressure:block/hand_cranked_plunger_pump_gunmetal",
+    "dark_metal": "hyperpressure:block/hand_cranked_plunger_pump_dark_metal",
+    "cobalt_casing": "hyperpressure:block/hand_cranked_plunger_pump_cobalt_casing",
+    "red_rubber": "hyperpressure:block/hand_cranked_plunger_pump_red_rubber",
+    "iron_ingot": "hyperpressure:block/hand_cranked_plunger_pump_iron_ingot",
+    "plunger_blue": "hyperpressure:block/hand_cranked_plunger_pump_plunger_blue",
+    "cyan_glow": "hyperpressure:block/hand_cranked_plunger_pump_cyan_glow",
+    "bolt": "hyperpressure:block/hand_cranked_plunger_pump_bolt",
+    "blue_glass": "hyperpressure:block/hand_cranked_plunger_pump_blue_glass",
+    "pressure_gauge": "hyperpressure:block/hand_cranked_plunger_pump_pressure_gauge",
+    "slot_glow": "hyperpressure:block/hand_cranked_plunger_pump_slot_glow",
+    "pipe_port": "hyperpressure:block/hand_cranked_plunger_pump_pipe_port",
+    "particle": "hyperpressure:block/hand_cranked_plunger_pump_gunmetal"
+  },
+  "elements": [
+    {
+      "name": "cyan pressure needle",
+      "from": [
+        7.75,
+        5.05,
+        0.12
+      ],
+      "to": [
+        8.25,
+        7.55,
+        0.28
+      ],
+      "shade": true,
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            0.5,
+            2.5
+          ],
+          "texture": "#cyan_glow"
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            0.16000000000000003,
+            2.5
+          ],
+          "texture": "#cyan_glow"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            0.5,
+            2.5
+          ],
+          "texture": "#cyan_glow"
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            0.16000000000000003,
+            2.5
+          ],
+          "texture": "#cyan_glow"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            0.5,
+            0.16000000000000003
+          ],
+          "texture": "#cyan_glow"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            0.5,
+            0.16000000000000003
+          ],
+          "texture": "#cyan_glow"
+        }
+      }
+    }
+  ]
+}

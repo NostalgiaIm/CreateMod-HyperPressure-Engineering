@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "B": {
+      "item": "hyperpressure:high_pressure_alloy"
+    },
+    "E": {
+      "item": "create:goggles"
+    },
+    "P": {
+      "item": "hyperpressure:pressure_goggles"
+    }
+  },
+  "pattern": [
+    " P ",
+    " E ",
+    " B "
+  ],
+  "result": {
+    "count": 1,
+    "id": "hyperpressure:super_engineer_goggles"
+  }
+}
