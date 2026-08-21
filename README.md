@@ -1,7 +1,7 @@
 # Create: HyperPressure Engineering
 
 <p align="center">
-  <img src=".github/readme/hand-cranked-plunger-pump-promo.png" alt="Create: HyperPressure Engineering hand-cranked plunger pump" width="720">
+  <img src=".github/readme/hand-cranked-plunger-pump-promo.png" alt="Create: HyperPressure Engineering hand-cranked plunger pump" width="480">
 </p>
 
 HyperPressure Engineering is an early-stage Create addon about high-pressure fluids, compressed air, pressure instruments, advanced pressure alloys, and controllable engineering risk.
