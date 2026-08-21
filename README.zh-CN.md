@@ -1,5 +1,9 @@
 # Create: HyperPressure Engineering
 
+<p align="center">
+  <img src=".github/readme/hand-cranked-plunger-pump-promo.png" alt="Create: HyperPressure Engineering 手摇柱塞泵" width="720">
+</p>
+
 HyperPressure Engineering 是一个早期开发中的 Create 附属模组，主题是高压流体、压缩空气、压力仪表、高压合金，以及可控但有风险的工程系统。
 
 英文版 [README.md](README.md) 是项目主要展示文档；本文件用于中文开发说明。
